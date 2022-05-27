@@ -1,0 +1,27 @@
+﻿Imports System.Data
+Imports System.Data.SqlClient
+Imports System.Data.SqlClient.SqlException
+
+Public Class FormLogin
+    Inherits System.Web.UI.Page
+    Dim Connect As New SqlConnection("Data Source=APCKRMPTMD01TV, 41433;Initial Catalog=PTMI_INV;Persist Security Info= False;Integrated Security = False; User ID=PTMIIC;Password=PTMIIC@123")
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+    End Sub
+
+    Protected Sub ButtonLogin_Click(sender As Object, e As EventArgs) Handles ButtonLogin.Click
+
+        Connect.Open()
+
+        Dim WebRegistration As String = Nothing
+        Dim cmd As SqlCommand = New SqlCommand("select * from WebRegistration where Email='" & txtEmailLogin.Text & "' and Password='" & txtPasswordLogin.Text & "'", Connect)
+        Dim sda As SqlDataAdapter = New SqlDataAdapter(cmd)
+        Dim dt As DataTable = New DataTable()
+        If (dt.Rows.Count > 0) Then
+            Response.Redirect("MainForm.aspx")
+        Else
+            MsgBox("Error, login Failed!", MsgBoxStyle.Information, "Message")
+        End If
+        Connect.Close()
+    End Sub
+End Class

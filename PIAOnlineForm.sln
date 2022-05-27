@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PIAOnlineForm", "PIAOnlineForm\PIAOnlineForm.vbproj", "{E7C5329A-C668-4C5E-B858-FB16A569F814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7C5329A-C668-4C5E-B858-FB16A569F814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C5329A-C668-4C5E-B858-FB16A569F814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C5329A-C668-4C5E-B858-FB16A569F814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C5329A-C668-4C5E-B858-FB16A569F814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C195D27-3209-4968-B2EA-9704775DBB94}
+	EndGlobalSection
+EndGlobal
