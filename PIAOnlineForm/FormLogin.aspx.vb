@@ -17,8 +17,15 @@ Public Class FormLogin
         Dim cmd As SqlCommand = New SqlCommand("select * from WebRegistration where Email='" & txtEmailLogin.Text & "' and Password='" & txtPasswordLogin.Text & "'", Connect)
         Dim sda As SqlDataAdapter = New SqlDataAdapter(cmd)
         Dim dt As DataTable = New DataTable()
+        sda.Fill(dt)
         If (dt.Rows.Count > 0) Then
-            Response.Redirect("MainForm.aspx")
+            Dim userLevel = dt.Rows(0)("UserLevel").ToString()
+            userLevel = userLevel.Trim(" ")
+            If (userLevel.Equals("Initiator")) Then
+                Response.Redirect("MainForm.aspx")
+            Else
+                Response.Redirect("AgreementForm.aspx")
+            End If
         Else
             MsgBox("Error, login Failed!", MsgBoxStyle.Information, "Message")
         End If
