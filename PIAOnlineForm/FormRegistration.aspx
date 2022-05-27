@@ -7,6 +7,7 @@
     <style type="text/css">
         .auto-style1 {
             width: 100%;
+            height: 181px;
         }
         .auto-style2 {
             height: 28px;
@@ -76,6 +77,7 @@
                 <td>&nbsp;</td>
                 <td>
                     <asp:Button ID="Button1" runat="server" BackColor="#91D5D1" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="33px" Text="Register" Width="90px" />
+                    <asp:Button ID="ButtonLogin" runat="server" BackColor="#91D5D1" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="33px" Text="Login" Width="91px" />
                 </td>
             </tr>
             </table>
