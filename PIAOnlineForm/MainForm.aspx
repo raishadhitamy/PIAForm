@@ -23,6 +23,9 @@
             .auto-style6 {
                 height: 28px;
             }
+            .auto-style7 {
+                height: 32px;
+            }
         </style>
     </head>
     <form id="form1" runat="server">
@@ -39,14 +42,16 @@
                     <asp:Label ID="Label13" runat="server" Font-Bold="True" Font-Size="Medium" Text="Document ID: "></asp:Label>
                 </td>
                 <td class="auto-style2">
-                    &nbsp;</td>
+                    <asp:TextBox ID="txtDocument" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
+                    <asp:Button ID="BtnGenerate" runat="server" BackColor="#91D5D1" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="29px" Text="Generate Document ID" Width="194px" />
+                </td>
             </tr>
             <tr>
                 <td class="auto-style2">
                     <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Medium" Text="Part Number: "></asp:Label>
                 </td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="txtPartNumber" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtPartNumber" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -54,7 +59,7 @@
                     <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Medium" Text="Plant: "></asp:Label>
                 </td>
                 <td class="auto-style3">
-                    <asp:DropDownList ID="cmbPlant" runat="server" Font-Size="Medium" Width="207px">
+                    <asp:DropDownList ID="cmbPlant" runat="server" Font-Size="Medium" Width="257px">
                         <asp:ListItem>P1</asp:ListItem>
                         <asp:ListItem>P2</asp:ListItem>
                         <asp:ListItem>PTAG</asp:ListItem>
@@ -66,7 +71,7 @@
                     <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="Medium" Text="Source: "></asp:Label>
                 </td>
                 <td class="auto-style5">
-                    <asp:DropDownList ID="cmbSource" runat="server" Font-Overline="False" Font-Size="Medium" Height="16px" Width="207px">
+                    <asp:DropDownList ID="cmbSource" runat="server" Font-Overline="False" Font-Size="Medium" Height="16px" Width="257px">
                         <asp:ListItem>STORE (TC 40)</asp:ListItem>
                         <asp:ListItem>WIP (TC 41)</asp:ListItem>
                         <asp:ListItem>QUARANTINE (TC 42)</asp:ListItem>
@@ -79,7 +84,7 @@
                     <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Size="Medium" Text="QUANTITY - Physical: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtPhysical" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtPhysical" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -87,7 +92,7 @@
                     <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Size="Medium" Text="QUANTITY - Book: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtBook" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtBook" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -95,7 +100,7 @@
                     <asp:Label ID="Label6" runat="server" Font-Bold="True" Font-Size="Medium" Text="Cover Until (Weeks): "></asp:Label>
                 </td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="txtCoverUntil" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtCoverUntil" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -103,7 +108,7 @@
                     <asp:Label ID="Label7" runat="server" Font-Bold="True" Font-Size="Medium" Text="Reason Code: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtReasonCode" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtReasonCode" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -111,7 +116,7 @@
                     <asp:Label ID="Label9" runat="server" Font-Bold="True" Font-Size="Medium" Text="W/C #: "></asp:Label>
                 </td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="txtWC" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtWC" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -119,7 +124,7 @@
                     <asp:Label ID="Label8" runat="server" Font-Bold="True" Font-Size="Medium" Text="Remarks: "></asp:Label>
                 </td>
                 <td class="auto-style6">
-                    <asp:TextBox ID="txtRemarks" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtRemarks" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -127,7 +132,7 @@
                     <asp:Label ID="Label10" runat="server" Font-Bold="True" Font-Size="Medium" Text="Total Value: "></asp:Label>
                 </td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="txtTotalValue" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtTotalValue" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -135,7 +140,7 @@
                     <asp:Label ID="Label11" runat="server" Font-Bold="True" Font-Size="Medium" Text="Unit Price (Rp): "></asp:Label>
                 </td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="txtUnitPrice" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtUnitPrice" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -143,13 +148,13 @@
                     <asp:Label ID="Label12" runat="server" Font-Bold="True" Font-Size="Medium" Text="Total Value (Rp): "></asp:Label>
                 </td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="txtTotalValueRP" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtTotalValueRP" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>
-                    <asp:Button ID="BtnSubmit" runat="server" BackColor="#91D5D1" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="30px" Text="Submit" Width="85px" />
+                <td class="auto-style7"></td>
+                <td class="auto-style7">
+                    <asp:Button ID="BtnSubmit" runat="server" BackColor="#91D5D1" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="29px" Text="Submit" Width="91px" />
                 </td>
             </tr>
         </table>

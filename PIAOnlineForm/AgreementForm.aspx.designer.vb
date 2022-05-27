@@ -59,13 +59,22 @@ Partial Public Class AgreementForm
     Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''CheckBox1 control.
+    '''manapproved control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CheckBox1 As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents manapproved As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''mannotapproved control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents mannotapproved As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
     '''Label3 control.
@@ -77,13 +86,22 @@ Partial Public Class AgreementForm
     Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''CheckBox2 control.
+    '''engapproved control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CheckBox2 As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents engapproved As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''engnotapproved control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents engnotapproved As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
     '''Label4 control.
@@ -95,13 +113,22 @@ Partial Public Class AgreementForm
     Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''CheckBox3 control.
+    '''matapproved control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CheckBox3 As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents matapproved As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''matnotapproved control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents matnotapproved As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
     '''Label5 control.
@@ -113,13 +140,22 @@ Partial Public Class AgreementForm
     Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''CheckBox5 control.
+    '''dirapproved control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CheckBox5 As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents dirapproved As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''dirnotapproved control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents dirnotapproved As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
     '''Label6 control.
@@ -131,13 +167,22 @@ Partial Public Class AgreementForm
     Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''CheckBox4 control.
+    '''preapproved control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CheckBox4 As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents preapproved As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''prenotapproved control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents prenotapproved As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
     '''Button2 control.
@@ -149,11 +194,11 @@ Partial Public Class AgreementForm
     Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''GridView1 control.
+    '''DisplayDatabase control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents DisplayDatabase As Global.System.Web.UI.WebControls.GridView
 End Class

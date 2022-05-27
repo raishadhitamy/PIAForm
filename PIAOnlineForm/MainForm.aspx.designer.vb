@@ -32,6 +32,24 @@ Partial Public Class MainForm
     Protected WithEvents Label13 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''txtDocument control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtDocument As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''BtnGenerate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents BtnGenerate As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''Label1 control.
     '''</summary>
     '''<remarks>

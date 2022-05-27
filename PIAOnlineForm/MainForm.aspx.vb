@@ -23,16 +23,38 @@ Public Class MainForm
         Dim total_value As String = txtTotalValue.Text
         Dim unit_price As String = txtUnitPrice.Text
         Dim total_value_rp As String = txtTotalValueRP.Text
+        Dim documentid As String = txtDocument.Text
 
         Connect.Open()
 
         Dim frompia As String = Nothing
-        Dim Command As New SqlCommand("Insert into frompia values ('" & part_number & "', '" & source & "', '" & plant & "', '" & physical & "', '" & book & "', '" & cover_until & "', '" & reason_code & "', '" & w_c & "', '" & remarks & "', '" & total_value & "', '" & unit_price & "', '" & total_value_rp & "')", Connect)
+        Dim Command As New SqlCommand("Insert into frompia values ('" & part_number & "', '" & source & "', '" & plant & "', '" & physical & "', '" & book & "', '" & cover_until & "', '" & reason_code & "', '" & w_c & "', '" & remarks & "', '" & total_value & "', '" & unit_price & "', '" & total_value_rp & "', '" & documentid & "')", Connect)
         Dim v = Command.ExecuteNonQuery()
 
         MsgBox("Data Added Successfully!", MsgBoxStyle.Information, "Message")
 
         Connect.Close()
 
+    End Sub
+
+    Protected Sub BtnGenerate_Click(sender As Object, e As EventArgs) Handles BtnGenerate.Click
+
+        Dim num As Integer
+
+        Connect.Open()
+
+        Dim cmd As SqlCommand = New SqlCommand("select max(documentid) from frompia", Connect)
+
+        If IsDBNull(cmd.ExecuteScalar) Then
+            num = 1
+            txtDocument.Text = num
+        Else
+            num = cmd.ExecuteScalar + 1
+            txtDocument.Text = num
+        End If
+
+        cmd.ExecuteNonQuery()
+
+        Connect.Close()
     End Sub
 End Class
