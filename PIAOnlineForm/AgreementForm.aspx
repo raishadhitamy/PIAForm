@@ -88,7 +88,7 @@
             <tr>
                 <td class="auto-style4">&nbsp;</td>
                 <td class="auto-style4">
-                    <asp:Button ID="Button2" runat="server" BackColor="#91D5D1" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Update" />
+                    <asp:Button ID="BtnUpdate" runat="server" BackColor="#91D5D1" Font-Bold="True" Font-Size="Medium" ForeColor="White" Text="Update" />
                 </td>
             </tr>
         </table>

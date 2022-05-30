@@ -185,13 +185,13 @@ Partial Public Class AgreementForm
     Protected WithEvents prenotapproved As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''Button2 control.
+    '''BtnUpdate control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents BtnUpdate As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''DisplayDatabase control.

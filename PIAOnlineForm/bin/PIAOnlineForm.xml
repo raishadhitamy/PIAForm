@@ -82,9 +82,18 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._CheckBox1">
+<member name="F:PIAOnlineForm.AgreementForm._manapproved">
 <summary>
-CheckBox1 control.
+manapproved control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.AgreementForm._mannotapproved">
+<summary>
+mannotapproved control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -100,9 +109,18 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._CheckBox2">
+<member name="F:PIAOnlineForm.AgreementForm._engapproved">
 <summary>
-CheckBox2 control.
+engapproved control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.AgreementForm._engnotapproved">
+<summary>
+engnotapproved control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -118,9 +136,18 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._CheckBox3">
+<member name="F:PIAOnlineForm.AgreementForm._matapproved">
 <summary>
-CheckBox3 control.
+matapproved control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.AgreementForm._matnotapproved">
+<summary>
+matnotapproved control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -136,9 +163,18 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._CheckBox5">
+<member name="F:PIAOnlineForm.AgreementForm._dirapproved">
 <summary>
-CheckBox5 control.
+dirapproved control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.AgreementForm._dirnotapproved">
+<summary>
+dirnotapproved control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -154,27 +190,36 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._CheckBox4">
+<member name="F:PIAOnlineForm.AgreementForm._preapproved">
 <summary>
-CheckBox4 control.
+preapproved control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._Button2">
+<member name="F:PIAOnlineForm.AgreementForm._prenotapproved">
 <summary>
-Button2 control.
+prenotapproved control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._GridView1">
+<member name="F:PIAOnlineForm.AgreementForm._BtnUpdate">
 <summary>
-GridView1 control.
+BtnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.AgreementForm._DisplayDatabase">
+<summary>
+DisplayDatabase control.
 </summary>
 <remarks>
 Auto-generated field.
