@@ -82,18 +82,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._manapproved">
+<member name="F:PIAOnlineForm.AgreementForm._man_approval">
 <summary>
-manapproved control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.AgreementForm._mannotapproved">
-<summary>
-mannotapproved control.
+man_approval control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -109,18 +100,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._engapproved">
+<member name="F:PIAOnlineForm.AgreementForm._eng_man_approval">
 <summary>
-engapproved control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.AgreementForm._engnotapproved">
-<summary>
-engnotapproved control.
+eng_man_approval control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -136,18 +118,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._matapproved">
+<member name="F:PIAOnlineForm.AgreementForm._mat_mgr_approval">
 <summary>
-matapproved control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.AgreementForm._matnotapproved">
-<summary>
-matnotapproved control.
+mat_mgr_approval control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -163,18 +136,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._dirapproved">
+<member name="F:PIAOnlineForm.AgreementForm._dir_approval">
 <summary>
-dirapproved control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.AgreementForm._dirnotapproved">
-<summary>
-dirnotapproved control.
+dir_approval control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -190,18 +154,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.AgreementForm._preapproved">
+<member name="F:PIAOnlineForm.AgreementForm._pres_approval">
 <summary>
-preapproved control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.AgreementForm._prenotapproved">
-<summary>
-prenotapproved control.
+pres_approval control.
 </summary>
 <remarks>
 Auto-generated field.

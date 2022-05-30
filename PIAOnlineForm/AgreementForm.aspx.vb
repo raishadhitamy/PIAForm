@@ -13,45 +13,45 @@ Public Class AgreementForm
         Dim documentid As String = TextBox1.Text
 
         Dim manager_approval As String = ""
-        If manapproved.Checked = True Then
+        If man_approval.SelectedIndex = 0 Then
             manager_approval = "Approved"
-        ElseIf mannotapproved.Checked = True Then
+        ElseIf man_approval.SelectedIndex = 1 Then
             manager_approval = "Not Approved"
         Else
             manager_approval = ""
         End If
 
         Dim eng_mgr_approval As String = ""
-        If engapproved.Checked = True Then
+        If eng_man_approval.SelectedIndex = 0 Then
             eng_mgr_approval = "Approved"
-        ElseIf engnotapproved.Checked = True Then
+        ElseIf eng_man_approval.SelectedIndex = 1 Then
             eng_mgr_approval = "Not Approved"
         Else
             eng_mgr_approval = ""
         End If
 
         Dim mat_mgr_planner_approval As String = ""
-        If matapproved.Checked = True Then
+        If mat_mgr_approval.SelectedIndex = 0 Then
             mat_mgr_planner_approval = "Approved"
-        ElseIf matnotapproved.Checked = True Then
+        ElseIf mat_mgr_approval.SelectedIndex = 1 Then
             mat_mgr_planner_approval = "Not Approved"
         Else
             mat_mgr_planner_approval = ""
         End If
 
         Dim director_approval As String = ""
-        If dirapproved.Checked = True Then
+        If dir_approval.SelectedIndex = 0 Then
             director_approval = "Approved"
-        ElseIf dirnotapproved.Checked = True Then
+        ElseIf dir_approval.SelectedIndex = 1 Then
             director_approval = "Not Approved"
         Else
             director_approval = ""
         End If
 
         Dim president_director_approval As String = ""
-        If preapproved.Checked = True Then
+        If pres_approval.SelectedIndex = 0 Then
             president_director_approval = "Approved"
-        ElseIf prenotapproved.Checked = True Then
+        ElseIf pres_approval.SelectedIndex = 1 Then
             president_director_approval = "Not Approved"
         Else
             president_director_approval = ""

@@ -59,22 +59,13 @@ Partial Public Class AgreementForm
     Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''manapproved control.
+    '''man_approval control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents manapproved As Global.System.Web.UI.WebControls.CheckBox
-
-    '''<summary>
-    '''mannotapproved control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents mannotapproved As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents man_approval As Global.System.Web.UI.WebControls.RadioButtonList
 
     '''<summary>
     '''Label3 control.
@@ -86,22 +77,13 @@ Partial Public Class AgreementForm
     Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''engapproved control.
+    '''eng_man_approval control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents engapproved As Global.System.Web.UI.WebControls.CheckBox
-
-    '''<summary>
-    '''engnotapproved control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents engnotapproved As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents eng_man_approval As Global.System.Web.UI.WebControls.RadioButtonList
 
     '''<summary>
     '''Label4 control.
@@ -113,22 +95,13 @@ Partial Public Class AgreementForm
     Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''matapproved control.
+    '''mat_mgr_approval control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents matapproved As Global.System.Web.UI.WebControls.CheckBox
-
-    '''<summary>
-    '''matnotapproved control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents matnotapproved As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents mat_mgr_approval As Global.System.Web.UI.WebControls.RadioButtonList
 
     '''<summary>
     '''Label5 control.
@@ -140,22 +113,13 @@ Partial Public Class AgreementForm
     Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''dirapproved control.
+    '''dir_approval control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents dirapproved As Global.System.Web.UI.WebControls.CheckBox
-
-    '''<summary>
-    '''dirnotapproved control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents dirnotapproved As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents dir_approval As Global.System.Web.UI.WebControls.RadioButtonList
 
     '''<summary>
     '''Label6 control.
@@ -167,22 +131,13 @@ Partial Public Class AgreementForm
     Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''preapproved control.
+    '''pres_approval control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents preapproved As Global.System.Web.UI.WebControls.CheckBox
-
-    '''<summary>
-    '''prenotapproved control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents prenotapproved As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents pres_approval As Global.System.Web.UI.WebControls.RadioButtonList
 
     '''<summary>
     '''BtnUpdate control.

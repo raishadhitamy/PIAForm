@@ -45,8 +45,10 @@
                     <asp:Label ID="Label2" runat="server" Text="MANAGER'S APPROVAL"></asp:Label>
                 </td>
                 <td class="auto-style4">
-                    <asp:CheckBox ID="manapproved" runat="server" Text="Approved" Font-Size="Large" />
-                    <asp:CheckBox ID="mannotapproved" runat="server" Font-Size="Large" Text="Not Approved" />
+                    <asp:RadioButtonList ID="man_approval" runat="server">
+                        <asp:ListItem>Approved</asp:ListItem>
+                        <asp:ListItem>Not Approved</asp:ListItem>
+                    </asp:RadioButtonList>
                 </td>
             </tr>
             <tr>
@@ -54,8 +56,10 @@
                     <asp:Label ID="Label3" runat="server" Text="ENG. MGR'S APPROVAL"></asp:Label>
                 </td>
                 <td>
-                    <asp:CheckBox ID="engapproved" runat="server" Text="Approved" Font-Size="Large" />
-                    <asp:CheckBox ID="engnotapproved" runat="server" Font-Size="Large" Text="Not Approved" />
+                    <asp:RadioButtonList ID="eng_man_approval" runat="server">
+                        <asp:ListItem>Approved</asp:ListItem>
+                        <asp:ListItem>Not Approved</asp:ListItem>
+                    </asp:RadioButtonList>
                 </td>
             </tr>
             <tr>
@@ -63,8 +67,10 @@
                     <asp:Label ID="Label4" runat="server" Text="MAT. MGR / MAT. PLANNER'S APPROVAL"></asp:Label>
                 </td>
                 <td class="auto-style5">
-                    <asp:CheckBox ID="matapproved" runat="server" Text="Approved" Font-Size="Large" />
-                    <asp:CheckBox ID="matnotapproved" runat="server" Font-Size="Large" Text="Not Approved" />
+                    <asp:RadioButtonList ID="mat_mgr_approval" runat="server">
+                        <asp:ListItem>Approved</asp:ListItem>
+                        <asp:ListItem>Not Approved</asp:ListItem>
+                    </asp:RadioButtonList>
                 </td>
             </tr>
             <tr>
@@ -72,8 +78,10 @@
                     <asp:Label ID="Label5" runat="server" Text="DIRECTOR'S APPROVAL"></asp:Label>
                 </td>
                 <td class="auto-style2">
-                    <asp:CheckBox ID="dirapproved" runat="server" Text="Approved" Font-Size="Large" />
-                    <asp:CheckBox ID="dirnotapproved" runat="server" Font-Size="Large" Text="Not Approved" />
+                    <asp:RadioButtonList ID="dir_approval" runat="server">
+                        <asp:ListItem>Approved</asp:ListItem>
+                        <asp:ListItem>Not Approved</asp:ListItem>
+                    </asp:RadioButtonList>
                 </td>
             </tr>
             <tr>
@@ -81,8 +89,10 @@
                     <asp:Label ID="Label6" runat="server" Text="PRESIDENT DIRECTOR'S APPROVAL"></asp:Label>
                 </td>
                 <td class="auto-style4">
-                    <asp:CheckBox ID="preapproved" runat="server" Text="Approved" Font-Size="Large" />
-                    <asp:CheckBox ID="prenotapproved" runat="server" Font-Size="Large" Text="Not Approved" />
+                    <asp:RadioButtonList ID="pres_approval" runat="server">
+                        <asp:ListItem>Approved</asp:ListItem>
+                        <asp:ListItem>Not Approved</asp:ListItem>
+                    </asp:RadioButtonList>
                 </td>
             </tr>
             <tr>
