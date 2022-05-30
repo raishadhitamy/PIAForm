@@ -11,24 +11,24 @@ Public Class MainForm
 
     Protected Sub BtnSubmit_Click(sender As Object, e As EventArgs) Handles BtnSubmit.Click
 
-        Dim part_number As String = txtPartNumber.Text
-        Dim source As String = cmbSource.SelectedValue
-        Dim plant As String = cmbPlant.SelectedValue
-        Dim physical As String = txtPhysical.Text
-        Dim book As String = txtBook.Text
-        Dim cover_until As String = txtCoverUntil.Text
-        Dim reason_code As String = txtReasonCode.Text
-        Dim w_c As String = txtWC.Text
-        Dim remarks As String = txtRemarks.Text
-        Dim total_value As String = txtTotalValue.Text
-        Dim unit_price As String = txtUnitPrice.Text
-        Dim total_value_rp As String = txtTotalValueRP.Text
-        Dim documentid As String = txtDocument.Text
+        Dim Part_Number As String = txtPartNumber.Text
+        Dim Source As String = cmbSource.SelectedValue
+        Dim Plant As String = cmbPlant.SelectedValue
+        Dim Quantity_Physical As String = txtPhysical.Text
+        Dim Quantity_Book As String = txtBook.Text
+        Dim Cover_Until As String = txtCoverUntil.Text
+        Dim Reason_Code As String = txtReasonCode.Text
+        Dim WC As String = txtWC.Text
+        Dim Remarks As String = txtRemarks.Text
+        Dim Total_Value As String = txtTotalValue.Text
+        Dim Unit_Price As String = txtUnitPrice.Text
+        Dim Total_Value_RP As String = txtTotalValueRP.Text
+        Dim DocumentID As String = txtDocument.Text
 
         Connect.Open()
 
         Dim frompia As String = Nothing
-        Dim Command As New SqlCommand("Insert into frompia (part_number, source, plant, physical,book,cover_until,reason_code,w_c,remarks,total_value,unit_price,total_value_rp,documentid) values ('" & part_number & "', '" & source & "', '" & plant & "', '" & physical & "', '" & book & "', '" & cover_until & "', '" & reason_code & "', '" & w_c & "', '" & remarks & "', '" & total_value & "', '" & unit_price & "', '" & total_value_rp & "', '" & documentid & "')", Connect)
+        Dim Command As New SqlCommand("Insert into frompia (Part_Number, Source, Plant, Quantity_Physical, Quantity_Book, Cover_Until, Reason_Code, WC, Remarks, Total_Value, Unit_Price, Total_Value_RP, DocumentID) values ('" & Part_Number & "', '" & Source & "', '" & Plant & "', '" & Quantity_Physical & "', '" & Quantity_Book & "', '" & Cover_Until & "', '" & Reason_Code & "', '" & WC & "', '" & Remarks & "', '" & Total_Value & "', '" & Unit_Price & "', '" & Total_Value_RP & "', '" & DocumentID & "')", Connect)
         Dim v = Command.ExecuteNonQuery()
 
         MsgBox("Data Added Successfully!", MsgBoxStyle.Information, "Message")

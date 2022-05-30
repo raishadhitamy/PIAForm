@@ -47,7 +47,7 @@
                     <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="Medium" Text="Email: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtEmail" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtEmail" runat="server" Font-Size="Medium" Width="200px" TextMode="Email"></asp:TextBox>
                 </td>
             </tr>
             <tr>

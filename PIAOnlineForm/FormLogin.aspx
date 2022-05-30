@@ -29,7 +29,7 @@
                     <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Medium" Text="Email: "></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtEmailLogin" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtEmailLogin" runat="server" Font-Size="Medium" Width="200px" TextMode="Email"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -37,7 +37,7 @@
                     <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Medium" Text="Password: "></asp:Label>
                 </td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="txtPasswordLogin" runat="server" Font-Size="Medium" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="txtPasswordLogin" runat="server" Font-Size="Medium" Width="200px" TextMode="Password"></asp:TextBox>
                 </td>
             </tr>
             <tr>
