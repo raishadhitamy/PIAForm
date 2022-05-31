@@ -23,8 +23,16 @@ Public Class FormLogin
             userLevel = userLevel.Trim(" ")
             If (userLevel.Equals("Initiator")) Then
                 Response.Redirect("MainForm.aspx")
+            ElseIf (userLevel.Equals("Director")) Then
+                Response.Redirect("DirectorAgreement.aspx")
+            ElseIf (userLevel.Equals("Eng. Mgr")) Then
+                Response.Redirect("EngManagerAgreement.aspx")
+            ElseIf (userLevel.Equals("Manager")) Then
+                Response.Redirect("ManagerAgreement.aspx")
+            ElseIf (userLevel.Equals("President Director")) Then
+                Response.Redirect("PresidentDirAgreeement.aspx")
             Else
-                Response.Redirect("AgreementForm.aspx")
+                Response.Redirect("MatManagerAgreement.aspx")
             End If
         Else
             MsgBox("Error, login Failed!", MsgBoxStyle.Information, "Message")
