@@ -61,4 +61,36 @@ Public Class MainForm
     Protected Sub txtCoverUntil_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
+
+    Protected Sub txtPhysical_TextChanged(sender As Object, e As EventArgs) Handles txtPhysical.TextChanged
+        If txtBook.Text <> "" Then
+            Dim physical_qty As Int32 = Integer.Parse(txtPhysical.Text)
+            Dim book_qty As Int32 = Integer.Parse(txtBook.Text)
+            txtVariance.Text = (Math.Abs(physical_qty - book_qty)).ToString()
+        End If
+    End Sub
+
+    Protected Sub txtBook_TextChanged(sender As Object, e As EventArgs) Handles txtBook.TextChanged
+        If txtPhysical.Text <> "" Then
+            Dim physical_qty As Int32 = Integer.Parse(txtPhysical.Text)
+            Dim book_qty As Int32 = Integer.Parse(txtBook.Text)
+            txtVariance.Text = (Math.Abs(physical_qty - book_qty)).ToString()
+        End If
+    End Sub
+
+    Protected Sub txtVariance_TextChanged(sender As Object, e As EventArgs) Handles txtVariance.TextChanged
+        If txtUnitPrice.Text <> "" Then
+            Dim var_qty As Int32 = Integer.Parse(txtVariance.Text)
+            Dim unit_price As Int32 = Integer.Parse(txtUnitPrice.Text)
+            txtTotalValue.Text = (Math.Abs(var_qty * unit_price))
+        End If
+    End Sub
+
+    Protected Sub txtUnitPrice_TextChanged(sender As Object, e As EventArgs) Handles txtUnitPrice.TextChanged
+        If txtVariance.Text <> "" Then
+            Dim var_qty As Int32 = Integer.Parse(txtVariance.Text)
+            Dim unit_price As Int32 = Integer.Parse(txtUnitPrice.Text)
+            txtTotalValue.Text = (Math.Abs(var_qty * unit_price))
+        End If
+    End Sub
 End Class
