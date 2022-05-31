@@ -14,22 +14,22 @@ Option Explicit On
 Partial Public Class FormLogin
 
     '''<summary>
-    '''TextBox1 control.
+    '''txtEmailLogin control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtEmailLogin As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox2 control.
+    '''txtPasswordLogin control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtPasswordLogin As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''ButtonLogin control.

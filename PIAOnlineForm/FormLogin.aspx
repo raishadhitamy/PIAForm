@@ -20,12 +20,12 @@
 
                   <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
-                    <asp:TextBox ID="TextBox1" TextMode="Email" CssClass="form-control" placeholder="Email" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtEmailLogin" TextMode="Email" CssClass="form-control" placeholder="Email" runat="server"></asp:TextBox>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
-                    <asp:TextBox ID="TextBox2" TextMode="Password" CssClass="form-control" placeholder="Password" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtPasswordLogin" TextMode="Password" CssClass="form-control" placeholder="Password" runat="server"></asp:TextBox>
                   </div>
 
                   <asp:Button ID="ButtonLogin" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Login" Width="308px" />
