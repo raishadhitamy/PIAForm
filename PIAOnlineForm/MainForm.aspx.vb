@@ -16,19 +16,19 @@ Public Class MainForm
         Dim Plant As String = cmbPlant.SelectedValue
         Dim Quantity_Physical As String = txtPhysical.Text
         Dim Quantity_Book As String = txtBook.Text
+        Dim Variance As String = txtVariance.Text
         Dim Cover_Until As String = txtCoverUntil.Text
         Dim Reason_Code As String = txtReasonCode.Text
         Dim WC As String = txtWC.Text
         Dim Remarks As String = txtRemarks.Text
         Dim Total_Value As String = txtTotalValue.Text
         Dim Unit_Price As String = txtUnitPrice.Text
-        Dim Total_Value_RP As String = txtTotalValueRP.Text
         Dim DocumentID As String = txtDocument.Text
 
         Connect.Open()
 
         Dim frompia As String = Nothing
-        Dim Command As New SqlCommand("Insert into frompia (Part_Number, Source, Plant, Quantity_Physical, Quantity_Book, Cover_Until, Reason_Code, WC, Remarks, Total_Value, Unit_Price, Total_Value_RP, DocumentID) values ('" & Part_Number & "', '" & Source & "', '" & Plant & "', '" & Quantity_Physical & "', '" & Quantity_Book & "', '" & Cover_Until & "', '" & Reason_Code & "', '" & WC & "', '" & Remarks & "', '" & Total_Value & "', '" & Unit_Price & "', '" & Total_Value_RP & "', '" & DocumentID & "')", Connect)
+        Dim Command As New SqlCommand("Insert into frompia (Part_Number, Source, Plant, Quantity_Physical, Quantity_Book, Variance, Cover_Until, Reason_Code, WC, Remarks, Total_Value, Unit_Price, DocumentID) values ('" & Part_Number & "', '" & Source & "', '" & Plant & "', '" & Quantity_Physical & "', '" & Quantity_Book & "', '" & Variance & "', '" & Cover_Until & "', '" & Reason_Code & "', '" & WC & "', '" & Remarks & "', '" & Total_Value & "', '" & Unit_Price & "', '" & DocumentID & "')", Connect)
         Dim v = Command.ExecuteNonQuery()
 
         MsgBox("Data Added Successfully!", MsgBoxStyle.Information, "Message")
@@ -56,5 +56,9 @@ Public Class MainForm
         cmd.ExecuteNonQuery()
 
         Connect.Close()
+    End Sub
+
+    Protected Sub txtCoverUntil_TextChanged(sender As Object, e As EventArgs)
+
     End Sub
 End Class

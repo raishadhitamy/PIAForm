@@ -97,17 +97,41 @@
             </tr>
             <tr>
                 <td class="auto-style4">
-                    <asp:Label ID="Label6" runat="server" Font-Bold="True" Font-Size="Medium" Text="Cover Until (Weeks): "></asp:Label>
+                    <asp:Label ID="Label14" runat="server" Font-Bold="True" Font-Size="Medium" Text="Variance"></asp:Label>
                 </td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="txtCoverUntil" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
+                    <asp:TextBox ID="txtVariance" runat="server" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label7" runat="server" Font-Bold="True" Font-Size="Medium" Text="Reason Code: "></asp:Label>
+                    <asp:Label ID="Label6" runat="server" Font-Bold="True" Font-Size="Medium" Text="Cover Until (Weeks): "></asp:Label>
                 </td>
                 <td>
+                    <asp:TextBox ID="txtCoverUntil" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:Label ID="Label11" runat="server" Font-Bold="True" Font-Size="Medium" Text="Unit Price (Rp): "></asp:Label>
+                </td>
+                <td class="auto-style4">
+                    <asp:TextBox ID="txtUnitPrice" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style6">
+                    <asp:Label ID="Label10" runat="server" Font-Bold="True" Font-Size="Medium" Text="Total Value: "></asp:Label>
+                </td>
+                <td class="auto-style6">
+                    <asp:TextBox ID="txtTotalValue" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:Label ID="Label7" runat="server" Font-Bold="True" Font-Size="Medium" Text="Reason Code: "></asp:Label>
+                </td>
+                <td class="auto-style4">
                     <asp:TextBox ID="txtReasonCode" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
@@ -120,35 +144,11 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style6">
+                <td class="auto-style2">
                     <asp:Label ID="Label8" runat="server" Font-Bold="True" Font-Size="Medium" Text="Remarks: "></asp:Label>
                 </td>
-                <td class="auto-style6">
+                <td class="auto-style2">
                     <asp:TextBox ID="txtRemarks" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style4">
-                    <asp:Label ID="Label10" runat="server" Font-Bold="True" Font-Size="Medium" Text="Total Value: "></asp:Label>
-                </td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="txtTotalValue" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style4">
-                    <asp:Label ID="Label11" runat="server" Font-Bold="True" Font-Size="Medium" Text="Unit Price (Rp): "></asp:Label>
-                </td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="txtUnitPrice" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style2">
-                    <asp:Label ID="Label12" runat="server" Font-Bold="True" Font-Size="Medium" Text="Total Value (Rp): "></asp:Label>
-                </td>
-                <td class="auto-style2">
-                    <asp:TextBox ID="txtTotalValueRP" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
