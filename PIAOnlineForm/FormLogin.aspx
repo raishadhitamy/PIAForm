@@ -3,56 +3,42 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Login</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="additional-file/css/global.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid bg">
+        <div class="row">
+            <div class="col-md-4 col-sm-12"></div>
+            <div class="col-md-4 col-sm-12">
+                <form class="container-form text-white" runat="server">
+                    <h2 class="text-center mb-3">Login Form</h2>
 
-    <head>
-        <style type="text/css">
-            .auto-style1 {
-                width: 100%;
-            }
-            .auto-style2 {
-                height: 23px;
-            }
-        </style>
-    </head>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <asp:TextBox ID="TextBox1" TextMode="Email" CssClass="form-control" placeholder="Email" runat="server"></asp:TextBox>
+                  </div>
 
-    <form id="form1" runat="server">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <asp:TextBox ID="TextBox2" TextMode="Password" CssClass="form-control" placeholder="Password" runat="server"></asp:TextBox>
+                  </div>
 
-    <div style="background-color:powderblue; font-size:xx-large; color:white" align="center">
-        LOGIN FORM
+                  <asp:Button ID="ButtonLogin" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Login" Width="308px" />
+                  
+                </form>
+            </div>
+            <div class="col-md-4 col-sm-12"></div>
+        </div>
     </div>
-    <br />
-    <div style="padding:15px">
-
-        <table class="auto-style1">
-            <tr>
-                <td>
-                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Medium" Text="Email: "></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="txtEmailLogin" runat="server" Font-Size="Medium" Width="200px" TextMode="Email"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style2">
-                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Medium" Text="Password: "></asp:Label>
-                </td>
-                <td class="auto-style2">
-                    <asp:TextBox ID="txtPasswordLogin" runat="server" Font-Size="Medium" Width="200px" TextMode="Password"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>
-                    <asp:Button ID="ButtonLogin" runat="server" BackColor="#91D5D1" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="28px" Text="Login" Width="63px" />
-                </td>
-            </tr>
-        </table>
-
-    </div>
-
-
-    </form>
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <p>
+        &nbsp;</p>
+    <p>
+        +</p>
+</body>
 </html>

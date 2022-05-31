@@ -5,11 +5,16 @@ Imports System.Data.SqlClient.SqlException
 Public Class FormLogin
     Inherits System.Web.UI.Page
     Dim Connect As New SqlConnection("Data Source=APCKRMPTMD01TV, 41433;Initial Catalog=PTMI_INV;Persist Security Info= False;Integrated Security = False; User ID=PTMIIC;Password=PTMIIC@123")
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
     End Sub
 
     Protected Sub ButtonLogin_Click(sender As Object, e As EventArgs) Handles ButtonLogin.Click
+        Dim txtEmailLogin As Object = Nothing
+        Dim Email As String = txtEmailLogin.Text
+        Dim txtPasswordLogin As Object = Nothing
+        Dim Password As String = txtPasswordLogin.Text
 
         Connect.Open()
 
