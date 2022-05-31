@@ -93,9 +93,24 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AgreementForm.aspx" />
+    <Content Include="bootstrap4\css\bootstrap-grid.css" />
+    <Content Include="bootstrap4\css\bootstrap-grid.min.css" />
+    <Content Include="bootstrap4\css\bootstrap-reboot.css" />
+    <Content Include="bootstrap4\css\bootstrap-reboot.min.css" />
+    <Content Include="bootstrap4\css\bootstrap.css" />
+    <Content Include="bootstrap4\css\bootstrap.min.css" />
+    <Content Include="bootstrap4\js\bootstrap.bundle.js" />
+    <Content Include="bootstrap4\js\bootstrap.bundle.min.js" />
+    <Content Include="bootstrap4\js\bootstrap.js" />
+    <Content Include="bootstrap4\js\bootstrap.min.js" />
+    <Content Include="DirectorAgreement.aspx" />
+    <Content Include="EngManagerAgreement.aspx" />
     <Content Include="FormLogin.aspx" />
     <Content Include="FormRegistration.aspx" />
     <Content Include="MainForm.aspx" />
+    <Content Include="ManagerAgreement.aspx" />
+    <Content Include="MatManagerAgreement.aspx" />
+    <Content Include="PresidentDirAgreeement.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +120,20 @@
     <Compile Include="AgreementForm.aspx.vb">
       <DependentUpon>AgreementForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DirectorAgreement.aspx.designer.vb">
+      <DependentUpon>DirectorAgreement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DirectorAgreement.aspx.vb">
+      <DependentUpon>DirectorAgreement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EngManagerAgreement.aspx.designer.vb">
+      <DependentUpon>EngManagerAgreement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EngManagerAgreement.aspx.vb">
+      <DependentUpon>EngManagerAgreement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="FormLogin.aspx.designer.vb">
       <DependentUpon>FormLogin.aspx</DependentUpon>
@@ -127,6 +156,20 @@
       <DependentUpon>MainForm.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="ManagerAgreement.aspx.designer.vb">
+      <DependentUpon>ManagerAgreement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerAgreement.aspx.vb">
+      <DependentUpon>ManagerAgreement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MatManagerAgreement.aspx.designer.vb">
+      <DependentUpon>MatManagerAgreement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MatManagerAgreement.aspx.vb">
+      <DependentUpon>MatManagerAgreement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -146,6 +189,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PresidentDirAgreeement.aspx.designer.vb">
+      <DependentUpon>PresidentDirAgreeement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PresidentDirAgreeement.aspx.vb">
+      <DependentUpon>PresidentDirAgreeement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -159,6 +209,17 @@
     <Content Include="..\.editorconfig">
       <Link>.editorconfig</Link>
     </Content>
+    <Content Include="bootstrap4\css\.DS_Store" />
+    <Content Include="bootstrap4\css\bootstrap-grid.css.map" />
+    <Content Include="bootstrap4\css\bootstrap-grid.min.css.map" />
+    <Content Include="bootstrap4\css\bootstrap-reboot.css.map" />
+    <Content Include="bootstrap4\css\bootstrap-reboot.min.css.map" />
+    <Content Include="bootstrap4\css\bootstrap.css.map" />
+    <Content Include="bootstrap4\css\bootstrap.min.css.map" />
+    <Content Include="bootstrap4\js\bootstrap.bundle.js.map" />
+    <Content Include="bootstrap4\js\bootstrap.bundle.min.js.map" />
+    <Content Include="bootstrap4\js\bootstrap.js.map" />
+    <Content Include="bootstrap4\js\bootstrap.min.js.map" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -176,6 +237,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

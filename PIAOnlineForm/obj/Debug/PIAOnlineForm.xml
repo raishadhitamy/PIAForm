@@ -181,6 +181,150 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:PIAOnlineForm.DirectorAgreement._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.DirectorAgreement._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.DirectorAgreement._DirTextBox">
+<summary>
+DirTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.DirectorAgreement._DirButton">
+<summary>
+DirButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.DirectorAgreement._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.DirectorAgreement._dir_approval">
+<summary>
+dir_approval control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.DirectorAgreement._DirBtnUpdate">
+<summary>
+DirBtnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.DirectorAgreement._DirDisplayDatabase">
+<summary>
+DirDisplayDatabase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.EngManagerAgreement._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.EngManagerAgreement._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.EngManagerAgreement._EngTextBox">
+<summary>
+EngTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.EngManagerAgreement._EngButton">
+<summary>
+EngButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.EngManagerAgreement._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.EngManagerAgreement._eng_man_approval">
+<summary>
+eng_man_approval control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.EngManagerAgreement._EngBtnUpdate">
+<summary>
+EngBtnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.EngManagerAgreement._EngDisplayDatabase">
+<summary>
+EngDisplayDatabase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:PIAOnlineForm.FormLogin._form1">
 <summary>
 form1 control.
@@ -607,6 +751,222 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PIAOnlineForm.MainForm._BtnSubmit">
 <summary>
 BtnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.ManagerAgreement._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.ManagerAgreement._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.ManagerAgreement._ManagerTextBox">
+<summary>
+ManagerTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.ManagerAgreement._ManagerButton">
+<summary>
+ManagerButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.ManagerAgreement._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.ManagerAgreement._man_approval">
+<summary>
+man_approval control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.ManagerAgreement._ManagerBtnUpdate">
+<summary>
+ManagerBtnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.ManagerAgreement._ManagerDisplayDatabase">
+<summary>
+ManagerDisplayDatabase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.MatManagerAgreement._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.MatManagerAgreement._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.MatManagerAgreement._MatTextBox">
+<summary>
+MatTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.MatManagerAgreement._MatButton">
+<summary>
+MatButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.MatManagerAgreement._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.MatManagerAgreement._mat_mgr_approval">
+<summary>
+mat_mgr_approval control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.MatManagerAgreement._MatBtnUpdate">
+<summary>
+MatBtnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.MatManagerAgreement._MatDisplayDatabase">
+<summary>
+MatDisplayDatabase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.PresidentDirAgreeement._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.PresidentDirAgreeement._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.PresidentDirAgreeement._PreTextBox">
+<summary>
+PreTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.PresidentDirAgreeement._PreButton">
+<summary>
+PreButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.PresidentDirAgreeement._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.PresidentDirAgreeement._pres_approval">
+<summary>
+pres_approval control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.PresidentDirAgreeement._PreBtnUpdate">
+<summary>
+PreBtnUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.PresidentDirAgreeement._PreDisplayDatabase">
+<summary>
+PreDisplayDatabase control.
 </summary>
 <remarks>
 Auto-generated field.
