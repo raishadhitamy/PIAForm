@@ -11,9 +11,7 @@ Public Class FormLogin
     End Sub
 
     Protected Sub ButtonLogin_Click(sender As Object, e As EventArgs) Handles ButtonLogin.Click
-        Dim txtEmailLogin As Object = Nothing
         Dim Email As String = txtEmailLogin.Text
-        Dim txtPasswordLogin As Object = Nothing
         Dim Password As String = txtPasswordLogin.Text
 
         Connect.Open()

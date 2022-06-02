@@ -14,24 +14,6 @@ Option Explicit On
 Partial Public Class MainForm
 
     '''<summary>
-    '''form1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-
-    '''<summary>
-    '''Label13 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label13 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtDocument control.
     '''</summary>
     '''<remarks>
@@ -50,15 +32,6 @@ Partial Public Class MainForm
     Protected WithEvents BtnGenerate As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Label1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtPartNumber control.
     '''</summary>
     '''<remarks>
@@ -66,15 +39,6 @@ Partial Public Class MainForm
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtPartNumber As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label2 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''cmbPlant control.
@@ -86,15 +50,6 @@ Partial Public Class MainForm
     Protected WithEvents cmbPlant As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Label3 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''cmbSource control.
     '''</summary>
     '''<remarks>
@@ -102,15 +57,6 @@ Partial Public Class MainForm
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents cmbSource As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
-    '''Label4 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtPhysical control.
@@ -122,15 +68,6 @@ Partial Public Class MainForm
     Protected WithEvents txtPhysical As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Label5 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtBook control.
     '''</summary>
     '''<remarks>
@@ -138,15 +75,6 @@ Partial Public Class MainForm
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtBook As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label14 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label14 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtVariance control.
@@ -158,15 +86,6 @@ Partial Public Class MainForm
     Protected WithEvents txtVariance As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Label6 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtCoverUntil control.
     '''</summary>
     '''<remarks>
@@ -174,15 +93,6 @@ Partial Public Class MainForm
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtCoverUntil As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label11 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label11 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtUnitPrice control.
@@ -194,15 +104,6 @@ Partial Public Class MainForm
     Protected WithEvents txtUnitPrice As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Label10 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label10 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtTotalValue control.
     '''</summary>
     '''<remarks>
@@ -210,15 +111,6 @@ Partial Public Class MainForm
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtTotalValue As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label7 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label7 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtReasonCode control.
@@ -230,15 +122,6 @@ Partial Public Class MainForm
     Protected WithEvents txtReasonCode As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Label9 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label9 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtWC control.
     '''</summary>
     '''<remarks>
@@ -246,15 +129,6 @@ Partial Public Class MainForm
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtWC As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label8 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label8 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtRemarks control.

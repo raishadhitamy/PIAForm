@@ -13,7 +13,7 @@
 <body>
     <div class="container-fluid bg">
         <div class="row">
-            <div class="col-md-4 col-sm-12"></div>
+            <div class="col-md-4 col-sm-12">&nbsp;</div>
             <div class="col-md-4 col-sm-12">
                 <form class="container-form text-white" runat="server">
                     <h2 class="text-center mb-3">Registration Form</h2>

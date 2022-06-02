@@ -3,164 +3,161 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <style type="text/css">
-            .auto-style1 {
-                width: 100%;
-            }
-            .auto-style2 {
-                height: 23px;
-            }
-            .auto-style3 {
-                height: 24px;
-            }
-            .auto-style4 {
-                height: 26px;
-            }
-            .auto-style5 {
-                height: 30px;
-            }
-            .auto-style6 {
-                height: 28px;
-            }
-            .auto-style7 {
-                height: 32px;
-            }
-        </style>
-    </head>
-    <form id="form1" runat="server">
-    <div style="background-color:powderblue; font-size:xx-large; color:white" align="center">
-        PIA FORM
-    </div>
-    <br />
-    <div style="padding:15px">
+<head runat="server">
+    <title>Login</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="additional-file/css/mainform.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid bg">
+        <div class="row">
+            <div class="col-md-12 col-sm-12"></div>
+            <div class="col-md-12 col-sm-12">
+                <form class="container-form text-white" runat="server">
+                    <h2 class="text-center mb-3">Registration Form</h2>
 
+                  <div class="mb-3 row">
+                      <div class="col-auto"> 
+                    <label for="exampleInputDocument">Document ID: </label>
+                          </div>
+                      <div class="col-sm-7">
+                    <asp:TextBox ID="txtDocument" CssClass="form-control" placeholder="Document ID" runat="server"></asp:TextBox>
+                          </div>
+                      <div class="col-sm-3"> 
+                    <asp:Button ID="BtnGenerate" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Generate Document ID" Width="250px" />
+                          </div>
+                  </div>
 
-        <table class="auto-style1">
-            <tr>
-                <td class="auto-style2">
-                    <asp:Label ID="Label13" runat="server" Font-Bold="True" Font-Size="Medium" Text="Document ID: "></asp:Label>
-                </td>
-                <td class="auto-style2">
-                    <asp:TextBox ID="txtDocument" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
-                    <asp:Button ID="BtnGenerate" runat="server" BackColor="#91D5D1" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="29px" Text="Generate Document ID" Width="194px" />
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style2">
-                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Medium" Text="Part Number: "></asp:Label>
-                </td>
-                <td class="auto-style2">
-                    <asp:TextBox ID="txtPartNumber" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style3">
-                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Medium" Text="Plant: "></asp:Label>
-                </td>
-                <td class="auto-style3">
-                    <asp:DropDownList ID="cmbPlant" runat="server" Font-Size="Medium" Width="257px">
+		          <div class="mb-3 row">
+                      <div class="col-auto"> 
+                    <label for="examplePartNumber">Part Number: </label>
+                          </div>
+                      <div class="col-sm-7">
+                    <asp:TextBox ID="txtPartNumber" CssClass="form-control" placeholder="Part Number" runat="server"></asp:TextBox>
+                          </div>
+                  </div>
+
+                  <div class="mb-3 row">
+                      <div class="col-auto"> 
+                    <label for="examplePlant">Plant: </label>
+                          </div>
+                      <div class="col-sm-7">
+                    <asp:DropDownList ID="cmbPlant" CssClass="form-control" runat="server">
                         <asp:ListItem>P1</asp:ListItem>
                         <asp:ListItem>P2</asp:ListItem>
                         <asp:ListItem>PTAG</asp:ListItem>
                     </asp:DropDownList>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style5">
-                    <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="Medium" Text="Source: "></asp:Label>
-                </td>
-                <td class="auto-style5">
-                    <asp:DropDownList ID="cmbSource" runat="server" Font-Overline="False" Font-Size="Medium" Height="16px" Width="257px">
+                          </div>
+                  </div>
+
+                  <div class="mb-3 row">
+                      <div class="col-auto"> 
+                    <label for="exampleSource">Source: </label>
+                        </div>
+                      <div class="col-sm-7">
+                    <asp:DropDownList ID="cmbSource" CssClass="form-control" runat="server">
                         <asp:ListItem>STORE (TC 40)</asp:ListItem>
                         <asp:ListItem>WIP (TC 41)</asp:ListItem>
                         <asp:ListItem>QUARANTINE (TC 42)</asp:ListItem>
-                        <asp:ListItem>SUB CONT (40)</asp:ListItem>
+                        <asp:ListItem>SUB CONT (40)</asp:ListItem>                    
                     </asp:DropDownList>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Size="Medium" Text="QUANTITY - Physical: "></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="txtPhysical" runat="server" Font-Size="Medium" Width="250px" AutoPostBack="True"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Size="Medium" Text="QUANTITY - Book: "></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="txtBook" runat="server" Font-Size="Medium" Width="250px" AutoPostBack="True"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style4">
-                    <asp:Label ID="Label14" runat="server" Font-Bold="True" Font-Size="Medium" Text="Variance"></asp:Label>
-                </td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="txtVariance" runat="server" Width="250px" Enabled="False"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <asp:Label ID="Label6" runat="server" Font-Bold="True" Font-Size="Medium" Text="Cover Until (Weeks): "></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="txtCoverUntil" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style4">
-                    <asp:Label ID="Label11" runat="server" Font-Bold="True" Font-Size="Medium" Text="Unit Price (Rp): "></asp:Label>
-                </td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="txtUnitPrice" runat="server" Font-Size="Medium" Width="250px" AutoPostBack="True"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style6">
-                    <asp:Label ID="Label10" runat="server" Font-Bold="True" Font-Size="Medium" Text="Total Value: "></asp:Label>
-                </td>
-                <td class="auto-style6">
-                    <asp:TextBox ID="txtTotalValue" runat="server" Font-Size="Medium" Width="250px" Enabled="False"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style4">
-                    <asp:Label ID="Label7" runat="server" Font-Bold="True" Font-Size="Medium" Text="Reason Code: "></asp:Label>
-                </td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="txtReasonCode" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style4">
-                    <asp:Label ID="Label9" runat="server" Font-Bold="True" Font-Size="Medium" Text="W/C #: "></asp:Label>
-                </td>
-                <td class="auto-style4">
-                    <asp:TextBox ID="txtWC" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style2">
-                    <asp:Label ID="Label8" runat="server" Font-Bold="True" Font-Size="Medium" Text="Remarks: "></asp:Label>
-                </td>
-                <td class="auto-style2">
-                    <asp:TextBox ID="txtRemarks" runat="server" Font-Size="Medium" Width="250px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style7"></td>
-                <td class="auto-style7">
-                    <asp:Button ID="BtnSubmit" runat="server" BackColor="#91D5D1" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="29px" Text="Submit" Width="91px" />
-                </td>
-            </tr>
-        </table>
+                          </div>
+                  </div>
 
+                  <div class="mb-3 row">
+                      <div class="col-auto"> 
+                    <label for="examplePartNumber">QUANTITY - Physical: </label>
+                          </div>
+                      <div class="col-sm-7"> 
+                    <asp:TextBox ID="txtPhysical" CssClass="form-control" placeholder="Physical" runat="server"></asp:TextBox>
+                          </div>
+                  </div>
 
+                  <div class="mb-3 row">
+                      <div class="col-auto">
+                    <label for="examplePartNumber">QUANTITY - Book: </label>
+                          </div>
+                      <div class="col-sm-7">
+                    <asp:TextBox ID="txtBook" CssClass="form-control" placeholder="Book" runat="server"></asp:TextBox>
+                          </div>
+                  </div>
+
+                  <div class="mb-3 row">
+                      <div class="col-auto">
+                    <label for="examplePartNumber">Variance: </label>
+                          </div>
+                      <div class="col-sm-7">
+                    <asp:TextBox ID="txtVariance" CssClass="form-control" Enabled="False" runat="server"></asp:TextBox>
+                          </div>
+                  </div>
+
+                  <div class="mb-3 row">
+                      <div class="col-auto">
+                    <label for="examplePartNumber">Cover Until (Weeks): </label>
+                          </div>
+                      <div class="col-sm-7">
+                    <asp:TextBox ID="txtCoverUntil" CssClass="form-control" placeholder="Cover Until" runat="server"></asp:TextBox>
+                          </div>
+                  </div>
+
+                  <div class="mb-3 row">
+                      <div class="col-auto">
+                    <label for="exampleUnitPrice">Unit Price (Rp): </label>
+                          </div>
+                      <div class="col-sm-7">
+                    <asp:TextBox ID="txtUnitPrice" CssClass="form-control" placeholder="Unit Price" runat="server"></asp:TextBox>
+                          </div>
+                  </div>
+
+                  <div class="mb-3 row">
+                      <div class="col-auto">
+                    <label for="examplePartNumber">Total Value: </label>
+                          </div>
+                      <div class="col-sm-7">
+                    <asp:TextBox ID="txtTotalValue" CssClass="form-control" Enabled="False" runat="server"></asp:TextBox>
+                          </div>
+                  </div>
+
+                  <div class="mb-3 row">
+                      <div class="col-auto">
+                    <label for="exampleReasonCode">Reason Code: </label>
+                          </div>
+                      <div class="col-sm-7">
+                    <asp:TextBox ID="txtReasonCode" CssClass="form-control" placeholder="Reason Code" runat="server"></asp:TextBox>
+                          </div>
+                  </div>
+
+                  <div class="mb-3 row">
+                      <div class="col-auto">
+                    <label for="exampleReasonCode">W/C #: </label>
+                          </div>
+                      <div class="col-sm-7">
+                    <asp:TextBox ID="txtWC" CssClass="form-control" placeholder="W/C #" runat="server"></asp:TextBox>
+                          </div>
+                  </div>
+
+                  <div class="mb-3 row">
+                      <div class="col-auto">
+                    <label for="exampleReasonCode">Remarks: </label>
+                          </div>
+                      <div class="col-sm-7">
+                    <asp:TextBox ID="txtRemarks" CssClass="form-control" placeholder="Remarks" runat="server"></asp:TextBox>
+                          </div>
+                  </div>
+
+                  <asp:Button ID="BtnSubmit" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Register" Width="308px" />
+                  
+                </form>
+            </div>
+            <div class="col-md-4 col-sm-12"></div>
+        </div>
     </div>
-    </form>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <p>
+        &nbsp;</p>
+    <p>
+        +</p>
+</body>
 </html>
