@@ -92,8 +92,12 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="additional-file\css\agreement.css" />
     <Content Include="additional-file\css\global.css" />
+    <Content Include="additional-file\css\mainform.css" />
     <Content Include="additional-file\img\5044328.jpg" />
+    <Content Include="additional-file\img\alex-fxrwJGMCz_g-unsplash.jpg" />
+    <Content Include="additional-file\img\dark-blue-evening-rl-1366x768.jpg" />
     <Content Include="AgreementForm.aspx" />
     <Content Include="bootstrap4\css\bootstrap-grid.css" />
     <Content Include="bootstrap4\css\bootstrap-grid.min.css" />

@@ -16,7 +16,7 @@
             <div class="col-md-12 col-sm-12"></div>
             <div class="col-md-12 col-sm-12">
                 <form class="container-form text-white" runat="server">
-                    <h2 class="text-center mb-3">Registration Form</h2>
+                    <h2 class="text-center mb-3">PIA Form</h2>
 
                     <div class="mb-3 row">
                         <div class="col-sm-2">
