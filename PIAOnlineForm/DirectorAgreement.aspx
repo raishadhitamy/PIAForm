@@ -10,8 +10,8 @@
     <link href="bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
     <link href="additional-file/css/agreement.css" rel="stylesheet" />
 </head>
-<body>
-    <div class="container-fluid bg">
+<body class="bg">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 col-sm-12">&nbsp;</div>
             <div class="col-md-12 col-sm-12">
