@@ -1,5 +1,6 @@
 ﻿.bg {
     background-image: url('../img/dark-blue-evening-rl-1366x768.jpg');
+    background-repeat: repeat-y;
     background-size: cover;
     height: 100vh;
 }

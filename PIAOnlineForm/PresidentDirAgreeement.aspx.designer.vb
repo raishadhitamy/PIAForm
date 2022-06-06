@@ -14,24 +14,6 @@ Option Explicit On
 Partial Public Class PresidentDirAgreeement
 
     '''<summary>
-    '''form1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-
-    '''<summary>
-    '''Label1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''PreTextBox control.
     '''</summary>
     '''<remarks>
@@ -48,15 +30,6 @@ Partial Public Class PresidentDirAgreeement
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents PreButton As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Label6 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''pres_approval control.
