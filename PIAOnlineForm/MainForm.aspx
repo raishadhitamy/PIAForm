@@ -148,7 +148,7 @@
                     </div>
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="BtnSubmit" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Register" Width="308px" />
+                        <asp:Button ID="BtnSubmit" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Submit" Width="308px" />
                     </div>
 
 

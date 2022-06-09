@@ -298,6 +298,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:PIAOnlineForm.FormLogin._ButtonRegister">
+<summary>
+ButtonRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:PIAOnlineForm.FormRegistration._txtKPK">
 <summary>
 txtKPK control.

@@ -42,4 +42,8 @@ Public Class FormLogin
         End If
         Connect.Close()
     End Sub
+
+    Protected Sub ButtonRegister_Click(sender As Object, e As EventArgs) Handles ButtonRegister.Click
+        Response.Redirect("FormRegistration.aspx")
+    End Sub
 End Class
