@@ -26,7 +26,7 @@ Public Class EngManagerAgreement
         Dim Command As New SqlCommand("Update frompia set Eng_Mgr_Approval = '" & eng_mgr_approval & "' where DocumentID = '" & documentid & "'", Connect)
         Dim v = Command.ExecuteNonQuery()
 
-        MsgBox("Data updated successfully", MsgBoxStyle.Information, "Message")
+        'MsgBox("Data updated successfully", MsgBoxStyle.Information, "Message")'
 
         Connect.Close()
     End Sub

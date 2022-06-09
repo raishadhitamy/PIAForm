@@ -23,7 +23,7 @@ Public Class FormRegistration
         Dim Command As New SqlCommand("Insert into WebRegistration values ('" & KPK & "', '" & Name & "', '" & Email & "', '" & Password & "', '" & UserLevel & "')", Connect)
         Dim v = Command.ExecuteNonQuery()
 
-        MsgBox("You have registerred successfully", MsgBoxStyle.Information, "Message")
+        'MsgBox("You have registerred successfully", MsgBoxStyle.Information, "Message")'
 
         Connect.Close()
     End Sub

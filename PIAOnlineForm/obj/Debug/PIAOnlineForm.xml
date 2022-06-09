@@ -226,24 +226,6 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.EngManagerAgreement._form1">
-<summary>
-form1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.EngManagerAgreement._Label1">
-<summary>
-Label1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:PIAOnlineForm.EngManagerAgreement._EngTextBox">
 <summary>
 EngTextBox control.
@@ -256,15 +238,6 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PIAOnlineForm.EngManagerAgreement._EngButton">
 <summary>
 EngButton control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.EngManagerAgreement._Label3">
-<summary>
-Label3 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -523,24 +496,6 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.ManagerAgreement._form1">
-<summary>
-form1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.ManagerAgreement._Label1">
-<summary>
-Label1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:PIAOnlineForm.ManagerAgreement._ManagerTextBox">
 <summary>
 ManagerTextBox control.
@@ -553,15 +508,6 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PIAOnlineForm.ManagerAgreement._ManagerButton">
 <summary>
 ManagerButton control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.ManagerAgreement._Label2">
-<summary>
-Label2 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -595,24 +541,6 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.MatManagerAgreement._form1">
-<summary>
-form1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.MatManagerAgreement._Label1">
-<summary>
-Label1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:PIAOnlineForm.MatManagerAgreement._MatTextBox">
 <summary>
 MatTextBox control.
@@ -625,15 +553,6 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PIAOnlineForm.MatManagerAgreement._MatButton">
 <summary>
 MatButton control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.MatManagerAgreement._Label4">
-<summary>
-Label4 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -667,24 +586,6 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.PresidentDirAgreeement._form1">
-<summary>
-form1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.PresidentDirAgreeement._Label1">
-<summary>
-Label1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:PIAOnlineForm.PresidentDirAgreeement._PreTextBox">
 <summary>
 PreTextBox control.
@@ -697,15 +598,6 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PIAOnlineForm.PresidentDirAgreeement._PreButton">
 <summary>
 PreButton control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.PresidentDirAgreeement._Label6">
-<summary>
-Label6 control.
 </summary>
 <remarks>
 Auto-generated field.

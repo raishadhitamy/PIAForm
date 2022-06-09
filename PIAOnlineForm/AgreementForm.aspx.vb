@@ -62,7 +62,7 @@ Public Class AgreementForm
         Dim Command As New SqlCommand("Update frompia set Manager_Approval = '" & manager_approval & "', Eng_Mgr_Approval = '" & eng_mgr_approval & "', Mat_Mgr_Planner_Approval = '" & mat_mgr_planner_approval & "', Director_Approval = '" & director_approval & "', President_Director_Approval = '" & president_director_approval & "' where DocumentID = '" & documentid & "'", Connect)
         Dim v = Command.ExecuteNonQuery()
 
-        MsgBox("Data updated successfully", MsgBoxStyle.Information, "Message")
+        'MsgBox("Data updated successfully", MsgBoxStyle.Information, "Message")'
 
         Connect.Close()
     End Sub

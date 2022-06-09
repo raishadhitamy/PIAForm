@@ -26,7 +26,7 @@ Public Class DirectorAgreement
         Dim Command As New SqlCommand("Update frompia set Director_Approval = '" & director_approval & "' where DocumentID = '" & documentid & "'", Connect)
         Dim v = Command.ExecuteNonQuery()
 
-        MsgBox("Data updated successfully", MsgBoxStyle.Information, "Message")
+        'MsgBox("Data updated successfully", MsgBoxStyle.Information, "Message")'
 
         Connect.Close()
     End Sub

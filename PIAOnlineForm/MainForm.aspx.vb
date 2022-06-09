@@ -31,7 +31,7 @@ Public Class MainForm
         Dim Command As New SqlCommand("Insert into frompia (Part_Number, Source, Plant, Quantity_Physical, Quantity_Book, Variance, Cover_Until, Reason_Code, WC, Remarks, Total_Value, Unit_Price, DocumentID) values ('" & Part_Number & "', '" & Source & "', '" & Plant & "', '" & Quantity_Physical & "', '" & Quantity_Book & "', '" & Variance & "', '" & Cover_Until & "', '" & Reason_Code & "', '" & WC & "', '" & Remarks & "', '" & Total_Value & "', '" & Unit_Price & "', '" & DocumentID & "')", Connect)
         Dim v = Command.ExecuteNonQuery()
 
-        MsgBox("Data Added Successfully!", MsgBoxStyle.Information, "Message")
+        'MsgBox("Data Added Successfully!", MsgBoxStyle.Information, "Message")'
 
         Connect.Close()
 
