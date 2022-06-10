@@ -147,9 +147,15 @@
                         </div>
                     </div>
 
+                  <br />
+
                     <div class="mb-3 row justify-content-center">
                         <asp:Button ID="BtnSubmit" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Submit" Width="308px" />
                     </div>
+
+                  <br />
+
+                    <asp:GridView ID="DisplayDatabase" runat="server" Width="80%"> </asp:GridView> 
 
 
                 </form>
