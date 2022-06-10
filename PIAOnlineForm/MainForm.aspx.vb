@@ -6,7 +6,17 @@ Public Class MainForm
     Inherits System.Web.UI.Page
     Dim Connect As New SqlConnection("Data Source=APCKRMPTMD01TV, 41433;Initial Catalog=PTMI_INV;Persist Security Info= False;Integrated Security = False; User ID=PTMIIC;Password=PTMIIC@123")
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Not Me.IsPostBack Then
+            Dim dt As New DataTable()
+            dt.Columns.AddRange(New DataColumn(3) {New DataColumn("Part number"), New DataColumn("QTY physical"), New DataColumn("QTY book"), New DataColumn("Total value")})
+            ViewState("Data") = dt
+            Me.BindGrid()
+        End If
+    End Sub
 
+    Protected Sub BindGrid()
+        DisplayDatabase.DataSource = DirectCast(ViewState("Customers"), DataTable)
+        DisplayDatabase.DataBind()
     End Sub
 
     Protected Sub BtnSubmit_Click(sender As Object, e As EventArgs) Handles BtnSubmit.Click
@@ -32,7 +42,27 @@ Public Class MainForm
         Dim v = Command.ExecuteNonQuery()
 
         'MsgBox("Data Added Successfully!", MsgBoxStyle.Information, "Message")'
+        txtDocument.Enabled = False
+        cmbSource.Enabled = False
+        cmbPlant.Enabled = False
+        txtDocument.Text = DocumentID
+        cmbSource.SelectedValue = Source
+        cmbSource.SelectedValue = Source
 
+        Dim dt As DataTable = DirectCast(ViewState("Data"), DataTable)
+        dt.Rows.Add(Part_Number.Trim(), Quantity_Physical.Trim(), Quantity_Book.Trim(), Total_Value.Trim())
+        ViewState("Customers") = dt
+        Me.BindGrid()
+        txtPartNumber.Text = String.Empty
+        txtPhysical.Text = String.Empty
+        txtBook.Text = String.Empty
+        txtVariance.Text = String.Empty
+        txtCoverUntil.Text = String.Empty
+        txtReasonCode.Text = String.Empty
+        txtWC.Text = String.Empty
+        txtRemarks.Text = String.Empty
+        txtTotalValue.Text = String.Empty
+        txtUnitPrice.Text = String.Empty
         Connect.Close()
 
     End Sub
