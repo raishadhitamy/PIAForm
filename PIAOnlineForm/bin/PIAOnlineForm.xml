@@ -505,6 +505,24 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:PIAOnlineForm.MainPage._ButtonLogin">
+<summary>
+ButtonLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.MainPage._ButtonRegister">
+<summary>
+ButtonRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:PIAOnlineForm.ManagerAgreement._ManagerTextBox">
 <summary>
 ManagerTextBox control.

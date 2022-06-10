@@ -95,6 +95,7 @@
     <Content Include="additional-file\css\agreement.css" />
     <Content Include="additional-file\css\global.css" />
     <Content Include="additional-file\css\mainform.css" />
+    <Content Include="additional-file\css\mainpage.css" />
     <Content Include="additional-file\css\regist.css" />
     <Content Include="additional-file\img\5044328.jpg" />
     <Content Include="additional-file\img\alex-fxrwJGMCz_g-unsplash.jpg" />
@@ -115,6 +116,7 @@
     <Content Include="FormLogin.aspx" />
     <Content Include="FormRegistration.aspx" />
     <Content Include="MainForm.aspx" />
+    <Content Include="MainPage.aspx" />
     <Content Include="ManagerAgreement.aspx" />
     <Content Include="MatManagerAgreement.aspx" />
     <Content Include="PresidentDirAgreeement.aspx" />
@@ -161,6 +163,13 @@
     </Compile>
     <Compile Include="MainForm.aspx.vb">
       <DependentUpon>MainForm.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MainPage.aspx.designer.vb">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.aspx.vb">
+      <DependentUpon>MainPage.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ManagerAgreement.aspx.designer.vb">
