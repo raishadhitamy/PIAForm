@@ -8,7 +8,7 @@ Public Class MainForm
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not Me.IsPostBack Then
             Dim dt As New DataTable()
-            dt.Columns.AddRange(New DataColumn(3) {New DataColumn("Part number"), New DataColumn("QTY physical"), New DataColumn("QTY book"), New DataColumn("Total value")})
+            dt.Columns.AddRange(New DataColumn(4) {New DataColumn("Part number"), New DataColumn("QTY physical"), New DataColumn("QTY book"), New DataColumn("Total value"), New DataColumn("Username")})
             ViewState("Data") = dt
             Me.BindGrid()
         End If
@@ -50,7 +50,8 @@ Public Class MainForm
         cmbSource.SelectedValue = Source
 
         Dim dt As DataTable = DirectCast(ViewState("Data"), DataTable)
-        dt.Rows.Add(Part_Number.Trim(), Quantity_Physical.Trim(), Quantity_Book.Trim(), Total_Value.Trim())
+        Dim name As String = DirectCast(Session("name"), String)
+        dt.Rows.Add(Part_Number.Trim(), Quantity_Physical.Trim(), Quantity_Book.Trim(), Total_Value.Trim(), name.Trim())
         ViewState("Customers") = dt
         Me.BindGrid()
         txtPartNumber.Text = String.Empty
