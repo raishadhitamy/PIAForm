@@ -50,6 +50,7 @@ Public Class MainForm
         cmbSource.SelectedValue = Source
 
         Dim dt As DataTable = DirectCast(ViewState("Data"), DataTable)
+        'Take the stored user name to be shown
         Dim name As String = DirectCast(Session("name"), String)
         Dim dataRow = dt.Rows.Add(Part_Number.Trim(), Quantity_Physical.Trim(), Quantity_Book.Trim(), Total_Value.Trim(), name.Trim())
         ViewState("Customers") = dt

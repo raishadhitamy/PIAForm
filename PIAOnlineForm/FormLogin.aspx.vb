@@ -22,6 +22,7 @@ Public Class FormLogin
         Dim dt As DataTable = New DataTable()
         sda.Fill(dt)
         If (dt.Rows.Count > 0) Then
+            'Set Session Variables for keeping user name
             Dim userLevel = dt.Rows(0)("UserLevel").ToString()
             Session("name") = dt.Rows(0)("Name").ToString()
             userLevel = userLevel.Trim(" ")
