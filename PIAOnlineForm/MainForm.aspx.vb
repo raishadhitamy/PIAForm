@@ -51,7 +51,7 @@ Public Class MainForm
 
         Dim dt As DataTable = DirectCast(ViewState("Data"), DataTable)
         Dim name As String = DirectCast(Session("name"), String)
-        dt.Rows.Add(Part_Number.Trim(), Quantity_Physical.Trim(), Quantity_Book.Trim(), Total_Value.Trim(), name.Trim())
+        Dim dataRow = dt.Rows.Add(Part_Number.Trim(), Quantity_Physical.Trim(), Quantity_Book.Trim(), Total_Value.Trim(), name.Trim())
         ViewState("Customers") = dt
         Me.BindGrid()
         txtPartNumber.Text = String.Empty

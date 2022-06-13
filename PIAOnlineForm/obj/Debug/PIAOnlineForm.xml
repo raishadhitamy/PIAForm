@@ -352,6 +352,51 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:PIAOnlineForm.FormRegistration._txtManager">
+<summary>
+txtManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.FormRegistration._txtEngMgr">
+<summary>
+txtEngMgr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.FormRegistration._txtMatMgr">
+<summary>
+txtMatMgr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.FormRegistration._txtDirector">
+<summary>
+txtDirector control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.FormRegistration._txtPresidentDirector">
+<summary>
+txtPresidentDirector control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:PIAOnlineForm.FormRegistration._Button1">
 <summary>
 Button1 control.
@@ -499,6 +544,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PIAOnlineForm.MainForm._BtnSubmit">
 <summary>
 BtnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.MainForm._DisplayDatabase">
+<summary>
+DisplayDatabase control.
 </summary>
 <remarks>
 Auto-generated field.

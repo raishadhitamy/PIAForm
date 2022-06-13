@@ -25,7 +25,7 @@
 
 		          <div class="form-group">
                     <label for="exampleInputName">Name</label>
-                    <asp:TextBox ID="txtName" Css Class="form-control" placeholder="Name" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtName" CssClass="form-control" placeholder="Name" runat="server"></asp:TextBox>
                   </div>
 
                   <div class="form-group">
@@ -48,6 +48,31 @@
                         <asp:ListItem>Director</asp:ListItem>
                         <asp:ListItem>President Director</asp:ListItem>
                     </asp:DropDownList>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputKPK">KPK Manager</label>
+                    <asp:TextBox ID="txtManager" CssClass="form-control" placeholder="KPK" runat="server"></asp:TextBox>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputKPK">KPK Eng. Mgr</label>
+                    <asp:TextBox ID="txtEngMgr" CssClass="form-control" placeholder="KPK" runat="server"></asp:TextBox>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputKPK">KPK Mat. Mgr</label>
+                    <asp:TextBox ID="txtMatMgr" CssClass="form-control" placeholder="KPK" runat="server"></asp:TextBox>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputKPK">KPK Director</label>
+                    <asp:TextBox ID="txtDirector" CssClass="form-control" placeholder="KPK" runat="server"></asp:TextBox>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputKPK">KPK President Director</label>
+                    <asp:TextBox ID="txtPresidentDirector" CssClass="form-control" placeholder="KPK" runat="server"></asp:TextBox>
                   </div>
 
                   <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Register" Width="308px" />

@@ -59,6 +59,51 @@ Partial Public Class FormRegistration
     Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
+    '''txtManager control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtManager As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtEngMgr control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtEngMgr As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtMatMgr control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtMatMgr As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtDirector control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtDirector As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtPresidentDirector control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtPresidentDirector As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
     '''Button1 control.
     '''</summary>
     '''<remarks>

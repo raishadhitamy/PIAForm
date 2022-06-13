@@ -16,11 +16,16 @@ Public Class FormRegistration
         Dim Email As String = txtEmail.Text
         Dim Password As String = txtPassword.Text
         Dim UserLevel As String = DropDownList1.SelectedValue
+        Dim KPK_Manager As String = txtManager.Text
+        Dim KPK_EngMgr As String = txtEngMgr.Text
+        Dim KPK_MatMgr As String = txtMatMgr.Text
+        Dim KPK_Director As String = txtDirector.Text
+        Dim KPK_PresidentDirector As String = txtPresidentDirector.Text
 
         Connect.Open()
 
         Dim WebRegistration As String = Nothing
-        Dim Command As New SqlCommand("Insert into WebRegistration values ('" & KPK & "', '" & Name & "', '" & Email & "', '" & Password & "', '" & UserLevel & "')", Connect)
+        Dim Command As New SqlCommand("Insert into WebRegistration values ('" & KPK & "', '" & Name & "', '" & Email & "', '" & Password & "', '" & UserLevel & "', '" & KPK_Manager & "', '" & KPK_EngMgr & "', '" & KPK_MatMgr & "', '" & KPK_Director & "', '" & KPK_PresidentDirector & "')", Connect)
         Dim v = Command.ExecuteNonQuery()
 
         'MsgBox("You have registerred successfully", MsgBoxStyle.Information, "Message")'
