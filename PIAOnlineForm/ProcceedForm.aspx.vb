@@ -5,10 +5,10 @@ Public Class ProcceedForm
     Dim Connect As New SqlConnection("Data Source=APCKRMPTMD01TV, 41433;Initial Catalog=PTMI_INV;Persist Security Info= False;Integrated Security = False; User ID=PTMIIC;Password=PTMIIC@123")
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim dt As New DataTable
-        dt.Columns.AddRange(New DataColumn(12) {New DataColumn("Document ID"), New DataColumn("Part Number"), New DataColumn("Source"), New DataColumn("Plant"), New DataColumn("Quantity Physical"), New DataColumn("Quantity Book"), New DataColumn("Variance"), New DataColumn("Cover Until"), New DataColumn("Unit Price"), New DataColumn("Reason Code"), New DataColumn("WC"), New DataColumn("Remarks"), New DataColumn("Total Value")})
+        dt.Columns.AddRange(New DataColumn(13) {New DataColumn("Document ID"), New DataColumn("Part Number"), New DataColumn("Source"), New DataColumn("Plant"), New DataColumn("Quantity Physical"), New DataColumn("Quantity Book"), New DataColumn("Variance"), New DataColumn("Cover Until"), New DataColumn("Unit Price"), New DataColumn("Reason Code"), New DataColumn("WC"), New DataColumn("Remarks"), New DataColumn("Total Value"), New DataColumn("Initiator")})
         For i As Integer = 0 To Int32.Parse(Session("Numbers")) - 1
             Dim datarow = Session("Datas").ToString().Split(";")(i)
-            dt.Rows.Add(datarow.Split(",")(0), datarow.Split(",")(1), datarow.Split(",")(2), datarow.Split(",")(3), datarow.Split(",")(4), datarow.Split(",")(5), datarow.Split(",")(6), datarow.Split(",")(7), datarow.Split(",")(8), datarow.Split(",")(9), datarow.Split(",")(10), datarow.Split(",")(11), datarow.Split(",")(12))
+            dt.Rows.Add(datarow.Split(",")(0), datarow.Split(",")(1), datarow.Split(",")(2), datarow.Split(",")(3), datarow.Split(",")(4), datarow.Split(",")(5), datarow.Split(",")(6), datarow.Split(",")(7), datarow.Split(",")(8), datarow.Split(",")(9), datarow.Split(",")(10), datarow.Split(",")(11), datarow.Split(",")(12), Session("name"))
         Next
         DisplayDatabase.DataSource = dt
         DisplayDatabase.DataBind()
