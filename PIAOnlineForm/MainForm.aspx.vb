@@ -10,6 +10,8 @@ Public Class MainForm
             Dim dt As New DataTable()
             dt.Columns.AddRange(New DataColumn(4) {New DataColumn("Part number"), New DataColumn("QTY physical"), New DataColumn("QTY book"), New DataColumn("Total value"), New DataColumn("Username")})
             ViewState("Data") = dt
+            Session("Datas") = ""
+            Session("Numbers") = "0"
             Me.BindGrid()
         End If
     End Sub
@@ -35,11 +37,6 @@ Public Class MainForm
         Dim Unit_Price As String = txtUnitPrice.Text
         Dim DocumentID As String = txtDocument.Text
 
-        Connect.Open()
-
-        Dim frompia As String = Nothing
-        Dim Command As New SqlCommand("Insert into frompia (Part_Number, Source, Plant, Quantity_Physical, Quantity_Book, Variance, Cover_Until, Reason_Code, WC, Remarks, Total_Value, Unit_Price, DocumentID) values ('" & Part_Number & "', '" & Source & "', '" & Plant & "', '" & Quantity_Physical & "', '" & Quantity_Book & "', '" & Variance & "', '" & Cover_Until & "', '" & Reason_Code & "', '" & WC & "', '" & Remarks & "', '" & Total_Value & "', '" & Unit_Price & "', '" & DocumentID & "')", Connect)
-        Dim v = Command.ExecuteNonQuery()
 
         'MsgBox("Data Added Successfully!", MsgBoxStyle.Information, "Message")'
         txtDocument.Enabled = False
@@ -54,6 +51,13 @@ Public Class MainForm
         Dim name As String = DirectCast(Session("name"), String)
         Dim dataRow = dt.Rows.Add(Part_Number.Trim(), Quantity_Physical.Trim(), Quantity_Book.Trim(), Total_Value.Trim(), name.Trim())
         ViewState("Customers") = dt
+        If (Session("Datas") = "") Then
+            Session("Datas") = DocumentID.Trim() & "," & Part_Number.Trim() & "," & Source.Trim() & "," & Plant.Trim() & "," & Quantity_Physical.Trim() & "," & Quantity_Book.Trim() & "," & Variance.Trim() & "," & Cover_Until.Trim() & "," & Unit_Price.Trim() & "," & Reason_Code.Trim() & "," & WC.Trim() & "," & Remarks.Trim() & "," & Total_Value & ";"
+            Session("Numbers") = "1"
+        Else
+            Session("Datas") = Session("Datas") & DocumentID.Trim() & "," & Part_Number.Trim() & "," & Source.Trim() & "," & Plant.Trim() & "," & Quantity_Physical.Trim() & "," & Quantity_Book.Trim() & "," & Variance.Trim() & "," & Cover_Until.Trim() & "," & Unit_Price.Trim() & "," & Reason_Code.Trim() & "," & WC.Trim() & "," & Remarks.Trim() & "," & Total_Value & ";"
+            Session("Numbers") = (Int32.Parse(Session("Numbers")) + 1).ToString()
+        End If
         Me.BindGrid()
         txtPartNumber.Text = String.Empty
         txtPhysical.Text = String.Empty
@@ -65,7 +69,6 @@ Public Class MainForm
         txtRemarks.Text = String.Empty
         txtTotalValue.Text = String.Empty
         txtUnitPrice.Text = String.Empty
-        Connect.Close()
 
     End Sub
 
