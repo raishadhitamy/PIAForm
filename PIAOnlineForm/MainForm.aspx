@@ -22,7 +22,7 @@
                         <div class="col-sm-2">
                             <label for="exampleInputDocument">Document ID: </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:TextBox ID="txtDocument" CssClass="form-control" placeholder="Document ID" runat="server"></asp:TextBox>
                         </div>
                         <div class="col-sm-3">
@@ -32,18 +32,9 @@
 
                     <div class="mb-3 row">
                         <div class="col-sm-2">
-                            <label for="examplePartNumber">Part Number: </label>
-                        </div>
-                        <div class="col-sm-7">
-                            <asp:TextBox ID="txtPartNumber" CssClass="form-control" placeholder="Part Number" runat="server"></asp:TextBox>
-                        </div>
-                    </div>
-
-                    <div class="mb-3 row">
-                        <div class="col-sm-2">
                             <label for="examplePlant">Plant: </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:DropDownList ID="cmbPlant" CssClass="form-control" runat="server">
                                 <asp:ListItem>P1</asp:ListItem>
                                 <asp:ListItem>P2</asp:ListItem>
@@ -56,7 +47,7 @@
                         <div class="col-sm-2">
                             <label for="exampleSource">Source: </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:DropDownList ID="cmbSource" CssClass="form-control" runat="server">
                                 <asp:ListItem>STORE (TC 40)</asp:ListItem>
                                 <asp:ListItem>WIP (TC 41)</asp:ListItem>
@@ -68,9 +59,18 @@
 
                     <div class="mb-3 row">
                         <div class="col-sm-2">
+                            <label for="examplePartNumber">Part Number: </label>
+                        </div>
+                        <div class="col-sm-5">
+                            <asp:TextBox ID="txtPartNumber" CssClass="form-control" placeholder="Part Number" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <div class="col-sm-2">
                             <label for="examplePartNumber">QUANTITY - Physical: </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:TextBox ID="txtPhysical" CssClass="form-control" placeholder="Physical" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                         <div class="col-sm-2">
                             <label for="examplePartNumber">QUANTITY - Book: </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:TextBox ID="txtBook" CssClass="form-control" placeholder="Book" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                         <div class="col-sm-2">
                             <label for="examplePartNumber">Variance: </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:TextBox ID="txtVariance" CssClass="form-control" Enabled="False" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                         <div class="col-sm-2">
                             <label for="examplePartNumber">Cover Until (Weeks): </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:TextBox ID="txtCoverUntil" CssClass="form-control" placeholder="Cover Until" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                         <div class="col-sm-2">
                             <label for="exampleUnitPrice">Unit Price (Rp): </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:TextBox ID="txtUnitPrice" CssClass="form-control" placeholder="Unit Price" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                         <div class="col-sm-2">
                             <label for="examplePartNumber">Total Value: </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:TextBox ID="txtTotalValue" CssClass="form-control" Enabled="False" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                         <div class="col-sm-2">
                             <label for="exampleReasonCode">Reason Code: </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:TextBox ID="txtReasonCode" CssClass="form-control" placeholder="Reason Code" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                         <div class="col-sm-2">
                             <label for="exampleReasonCode">W/C #: </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:TextBox ID="txtWC" CssClass="form-control" placeholder="W/C #" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                         <div class="col-sm-2">
                             <label for="exampleReasonCode">Remarks: </label>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-5">
                             <asp:TextBox ID="txtRemarks" CssClass="form-control" placeholder="Remarks" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -157,6 +157,9 @@
 
                     <asp:GridView ID="DisplayDatabase" runat="server" Width="80%"> </asp:GridView> 
 
+                    <div class="mb-3 row justify-content-center">
+                        <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Proceed" Width="308px" />
+                    </div>
 
                 </form>
             </div>

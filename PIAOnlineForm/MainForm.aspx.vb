@@ -125,4 +125,9 @@ Public Class MainForm
             txtTotalValue.Text = (Math.Abs(var_qty * unit_price))
         End If
     End Sub
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Response.Redirect("ProcceedForm.aspx")
+    End Sub
+
 End Class

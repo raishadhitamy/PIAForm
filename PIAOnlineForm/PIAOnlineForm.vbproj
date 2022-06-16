@@ -118,6 +118,7 @@
     <Content Include="ManagerAgreement.aspx" />
     <Content Include="MatManagerAgreement.aspx" />
     <Content Include="PresidentDirAgreeement.aspx" />
+    <Content Include="ProcceedForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -208,6 +209,13 @@
     </Compile>
     <Compile Include="PresidentDirAgreeement.aspx.vb">
       <DependentUpon>PresidentDirAgreeement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ProcceedForm.aspx.designer.vb">
+      <DependentUpon>ProcceedForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProcceedForm.aspx.vb">
+      <DependentUpon>ProcceedForm.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

@@ -32,15 +32,6 @@ Partial Public Class MainForm
     Protected WithEvents BtnGenerate As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''txtPartNumber control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtPartNumber As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
     '''cmbPlant control.
     '''</summary>
     '''<remarks>
@@ -57,6 +48,15 @@ Partial Public Class MainForm
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents cmbSource As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''txtPartNumber control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtPartNumber As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''txtPhysical control.
@@ -156,4 +156,13 @@ Partial Public Class MainForm
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents DisplayDatabase As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''Button1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 End Class
