@@ -11,7 +11,16 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class DirectorAgreement
+Partial Public Class FullData
+
+    '''<summary>
+    '''DisplayDatabase control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents DisplayDatabase As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''Button1 control.
@@ -23,29 +32,11 @@ Partial Public Class DirectorAgreement
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''DirDisplayDatabase control.
+    '''Button2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents DirDisplayDatabase As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
-    '''dir_approval control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents dir_approval As Global.System.Web.UI.WebControls.RadioButtonList
-
-    '''<summary>
-    '''DirBtnUpdate control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents DirBtnUpdate As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
 End Class
