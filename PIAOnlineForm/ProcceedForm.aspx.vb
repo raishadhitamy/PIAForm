@@ -22,7 +22,7 @@ Public Class ProcceedForm
         Connect.Open()
         For i As Integer = 0 To Int32.Parse(Session("Numbers")) - 1
             Dim datarow = Session("Datas").ToString().Split(";")(i)
-            Dim Command As New SqlCommand("Insert into frompia (DocumentID, Part_Number, Source, Plant, Quantity_Physical, Quantity_Book, Variance, Cover_Until, Unit_Price, Reason_Code, WC, Remarks, Total_Value) values ('" & datarow.Split(",")(0) & "', '" & datarow.Split(",")(1) & "', '" & datarow.Split(",")(2) & "', '" & datarow.Split(",")(3) & "', '" & datarow.Split(",")(4) & "', '" & datarow.Split(",")(5) & "', '" & datarow.Split(",")(6) & "', '" & datarow.Split(",")(7) & "', '" & datarow.Split(",")(8) & "', '" & datarow.Split(",")(9) & "', '" & datarow.Split(",")(10) & "', '" & datarow.Split(",")(11) & "', '" & datarow.Split(",")(12) & "')", Connect)
+            Dim Command As New SqlCommand("Insert into frompia (DocumentID, Part_Number, Source, Plant, Quantity_Physical, Quantity_Book, Variance, Cover_Until, Unit_Price, Reason_Code, WC, Remarks, Total_Value, Initiator_Name) values ('" & datarow.Split(",")(0) & "', '" & datarow.Split(",")(1) & "', '" & datarow.Split(",")(2) & "', '" & datarow.Split(",")(3) & "', '" & datarow.Split(",")(4) & "', '" & datarow.Split(",")(5) & "', '" & datarow.Split(",")(6) & "', '" & datarow.Split(",")(7) & "', '" & datarow.Split(",")(8) & "', '" & datarow.Split(",")(9) & "', '" & datarow.Split(",")(10) & "', '" & datarow.Split(",")(11) & "', '" & datarow.Split(",")(12) & "', '" & Session("name") & "')", Connect)
             Command.ExecuteNonQuery()
         Next
         DisplayDatabase.DataSource = New DataTable()
