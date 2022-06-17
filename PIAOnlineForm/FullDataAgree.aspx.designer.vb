@@ -11,7 +11,16 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class EngManagerAgreement
+Partial Public Class FullDataAgree
+
+    '''<summary>
+    '''DisplayDatabase control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents DisplayDatabase As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''Button1 control.
@@ -23,29 +32,11 @@ Partial Public Class EngManagerAgreement
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''EngDisplayDatabase control.
+    '''Button2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents EngDisplayDatabase As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
-    '''eng_man_approval control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents eng_man_approval As Global.System.Web.UI.WebControls.RadioButtonList
-
-    '''<summary>
-    '''EngBtnUpdate control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents EngBtnUpdate As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
 End Class

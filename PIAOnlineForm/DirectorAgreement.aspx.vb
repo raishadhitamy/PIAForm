@@ -1,5 +1,4 @@
 ﻿Imports System.Data.SqlClient
-
 Public Class DirectorAgreement
     Inherits System.Web.UI.Page
     Dim Connect As New SqlConnection("Data Source=APCKRMPTMD01TV, 41433;Initial Catalog=PTMI_INV;Persist Security Info= False;Integrated Security = False; User ID=PTMIIC;Password=PTMIIC@123")
@@ -13,6 +12,6 @@ Public Class DirectorAgreement
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Response.Redirect("FullData.aspx")
+        Response.Redirect("FullDataAgree.aspx")
     End Sub
 End Class

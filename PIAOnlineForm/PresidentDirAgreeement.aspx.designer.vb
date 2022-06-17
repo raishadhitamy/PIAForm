@@ -14,22 +14,22 @@ Option Explicit On
 Partial Public Class PresidentDirAgreeement
 
     '''<summary>
-    '''PreTextBox control.
+    '''Button1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents PreTextBox As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''PreButton control.
+    '''PreDisplayDatabase control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents PreButton As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents PreDisplayDatabase As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''pres_approval control.
@@ -48,13 +48,4 @@ Partial Public Class PresidentDirAgreeement
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents PreBtnUpdate As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''PreDisplayDatabase control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents PreDisplayDatabase As Global.System.Web.UI.WebControls.GridView
 End Class

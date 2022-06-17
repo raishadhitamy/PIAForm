@@ -14,22 +14,22 @@ Option Explicit On
 Partial Public Class MatManagerAgreement
 
     '''<summary>
-    '''MatTextBox control.
+    '''Button1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents MatTextBox As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''MatButton control.
+    '''MatDisplayDatabase control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents MatButton As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents MatDisplayDatabase As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''mat_mgr_approval control.
@@ -48,13 +48,4 @@ Partial Public Class MatManagerAgreement
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents MatBtnUpdate As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''MatDisplayDatabase control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents MatDisplayDatabase As Global.System.Web.UI.WebControls.GridView
 End Class

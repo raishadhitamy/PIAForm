@@ -50,7 +50,5 @@
     
     <p>
         &nbsp;</p> 
-    <p>
-             +</p>
 </body>
 </html>

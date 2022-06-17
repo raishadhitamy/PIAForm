@@ -37,7 +37,6 @@ Public Class MainForm
         Dim Unit_Price As String = txtUnitPrice.Text
         Dim DocumentID As String = txtDocument.Text
 
-
         'MsgBox("Data Added Successfully!", MsgBoxStyle.Information, "Message")'
         txtDocument.Enabled = False
         cmbSource.Enabled = False

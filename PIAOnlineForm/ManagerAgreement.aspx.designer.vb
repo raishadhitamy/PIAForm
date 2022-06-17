@@ -14,22 +14,22 @@ Option Explicit On
 Partial Public Class ManagerAgreement
 
     '''<summary>
-    '''ManagerTextBox control.
+    '''Button1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ManagerTextBox As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''ManagerButton control.
+    '''ManagerDisplayDatabase control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ManagerButton As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents ManagerDisplayDatabase As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''man_approval control.
@@ -48,13 +48,4 @@ Partial Public Class ManagerAgreement
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ManagerBtnUpdate As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''ManagerDisplayDatabase control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ManagerDisplayDatabase As Global.System.Web.UI.WebControls.GridView
 End Class

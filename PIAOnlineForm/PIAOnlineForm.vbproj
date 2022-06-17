@@ -98,7 +98,6 @@
     <Content Include="additional-file\css\mainpage.css" />
     <Content Include="additional-file\css\regist.css" />
     <Content Include="additional-file\img\simple-1655089829591-3169.jpg" />
-    <Content Include="AgreementForm.aspx" />
     <Content Include="bootstrap4\css\bootstrap-grid.css" />
     <Content Include="bootstrap4\css\bootstrap-grid.min.css" />
     <Content Include="bootstrap4\css\bootstrap-reboot.css" />
@@ -113,6 +112,7 @@
     <Content Include="EngManagerAgreement.aspx" />
     <Content Include="FormLogin.aspx" />
     <Content Include="FormRegistration.aspx" />
+    <Content Include="FullDataAgree.aspx" />
     <Content Include="MainForm.aspx" />
     <Content Include="MainPage.aspx" />
     <Content Include="ManagerAgreement.aspx" />
@@ -122,13 +122,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AgreementForm.aspx.designer.vb">
-      <DependentUpon>AgreementForm.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AgreementForm.aspx.vb">
-      <DependentUpon>AgreementForm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="DirectorAgreement.aspx.designer.vb">
       <DependentUpon>DirectorAgreement.aspx</DependentUpon>
     </Compile>
@@ -155,6 +148,13 @@
     </Compile>
     <Compile Include="FormRegistration.aspx.vb">
       <DependentUpon>FormRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FullDataAgree.aspx.designer.vb">
+      <DependentUpon>FullDataAgree.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FullDataAgree.aspx.vb">
+      <DependentUpon>FullDataAgree.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="MainForm.aspx.designer.vb">

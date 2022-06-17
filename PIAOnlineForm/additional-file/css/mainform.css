@@ -1,6 +1,8 @@
 ﻿.bg {
     background-image: url('../img/alex-fxrwJGMCz_g-unsplash.jpg');
     background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .container-form {
