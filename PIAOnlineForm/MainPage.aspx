@@ -21,6 +21,7 @@
                   <asp:Button ID="ButtonLogin" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Login" Width="308px" />
                   <asp:Button ID="ButtonRegister" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Register" Width="308px" />
                    
+
                 </form>
             </div>
             <div class="col-md-4 col-sm-12"></div>

@@ -112,7 +112,11 @@
     <Content Include="EngManagerAgreement.aspx" />
     <Content Include="FormLogin.aspx" />
     <Content Include="FormRegistration.aspx" />
-    <Content Include="FullDataAgree.aspx" />
+    <Content Include="FullDataDirector.aspx" />
+    <Content Include="FullDataEngManager.aspx" />
+    <Content Include="FullDataManager.aspx" />
+    <Content Include="FullDataMatManager.aspx" />
+    <Content Include="FullDataPresident.aspx" />
     <Content Include="MainForm.aspx" />
     <Content Include="MainPage.aspx" />
     <Content Include="ManagerAgreement.aspx" />
@@ -150,11 +154,39 @@
       <DependentUpon>FormRegistration.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="FullDataAgree.aspx.designer.vb">
-      <DependentUpon>FullDataAgree.aspx</DependentUpon>
+    <Compile Include="FullDataDirector.aspx.designer.vb">
+      <DependentUpon>FullDataDirector.aspx</DependentUpon>
     </Compile>
-    <Compile Include="FullDataAgree.aspx.vb">
-      <DependentUpon>FullDataAgree.aspx</DependentUpon>
+    <Compile Include="FullDataDirector.aspx.vb">
+      <DependentUpon>FullDataDirector.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FullDataEngManager.aspx.designer.vb">
+      <DependentUpon>FullDataEngManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FullDataEngManager.aspx.vb">
+      <DependentUpon>FullDataEngManager.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FullDataManager.aspx.designer.vb">
+      <DependentUpon>FullDataManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FullDataManager.aspx.vb">
+      <DependentUpon>FullDataManager.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FullDataMatManager.aspx.designer.vb">
+      <DependentUpon>FullDataMatManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FullDataMatManager.aspx.vb">
+      <DependentUpon>FullDataMatManager.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FullDataPresident.aspx.designer.vb">
+      <DependentUpon>FullDataPresident.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FullDataPresident.aspx.vb">
+      <DependentUpon>FullDataPresident.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="MainForm.aspx.designer.vb">

@@ -32,6 +32,33 @@ Partial Public Class EngManagerAgreement
     Protected WithEvents EngDisplayDatabase As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
+    '''EngTextBox control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents EngTextBox As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''EngButton control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents EngButton As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''DisplayDatabaseEng control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents DisplayDatabaseEng As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
     '''eng_man_approval control.
     '''</summary>
     '''<remarks>

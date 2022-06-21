@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class FullDataAgree
+Partial Public Class FullDataEngManager
 
     '''<summary>
     '''DisplayDatabase control.

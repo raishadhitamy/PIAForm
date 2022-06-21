@@ -25,6 +25,7 @@
                     </div>
 
                       <asp:GridView ID="DirDisplayDatabase" runat="server" Width="80%"> </asp:GridView> 
+                    <br />
 
                     <div class="mb-3 row">
                  <div class="col-auto">

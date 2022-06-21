@@ -1,7 +1,6 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="MainForm.aspx.vb" Inherits="PIAOnlineForm.MainForm" %>
 
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Login</title>
@@ -65,7 +64,7 @@
                             <asp:TextBox ID="txtPartNumber" CssClass="form-control" placeholder="Part Number" runat="server"></asp:TextBox>
                         </div>
                     </div>
-
+                    
                     <div class="mb-3 row">
                         <div class="col-sm-2">
                             <label for="examplePartNumber">QUANTITY - Physical: </label>
