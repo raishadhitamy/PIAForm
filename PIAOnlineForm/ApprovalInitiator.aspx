@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link href="bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="additional-file/css/agreement.css" rel="stylesheet" />
+    <link href="additional-file/css/approval.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container-fluid bg">

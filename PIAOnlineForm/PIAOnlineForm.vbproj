@@ -93,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="additional-file\css\agreement.css" />
+    <Content Include="additional-file\css\approval.css" />
     <Content Include="additional-file\css\global.css" />
     <Content Include="additional-file\css\mainform.css" />
     <Content Include="additional-file\css\mainpage.css" />
