@@ -24,40 +24,17 @@
                         <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the full data" Width="308px" />
                     </div>
 
-                    
-
                       <asp:GridView ID="EngDisplayDatabase" runat="server" Width="80%">
 
-                          <Columns>
-                        <asp:TemplateField>
-                            <ItemTemplate>
-                              <asp:CheckBox ID="chkchild" runat="server"></asp:CheckBox>
-                            </ItemTemplate>
-                        </asp:TemplateField>
+                    <Columns>
+                      <asp:TemplateField>
+                         <ItemTemplate>
+                            <asp:CheckBox ID="chkchild" runat="server"></asp:CheckBox>
+                         </ItemTemplate>
+                      </asp:TemplateField>
                     </Columns>
 
                     </asp:GridView> 
-
-                    <br />
-
-                    <div class="mb-3 row">
-                        <div class="col-sm-2">
-                            <label for="exampleInputDocument">Input Document ID: </label>
-                        </div>
-                        <div class="col-sm-7">
-                            <asp:TextBox ID="EngTextBox" CssClass="form-control" placeholder="Document ID" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-sm-3">
-                            <asp:Button ID="EngButton" CssClass="btn btn-primary btn-block" runat="server" Text="Search" Width="250px" />
-                        </div>
-                    </div>
-
-                    <br /> 
-
-
-                    <asp:GridView ID="DisplayDatabaseEng" runat="server" Width="80%">            </asp:GridView> 
-
-                    <br />
 
                  <div class="mb-3 row">  
                  <div class="col-auto">

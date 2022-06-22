@@ -17,6 +17,12 @@
                 <form class="container-form text-white" runat="server">
                     <h2 class="text-center mb-3">PIA Form</h2>
 
+
+                                        <div class="mb-3 row justify-content-center">
+                        <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the progress" Width="308px" />
+                    </div>
+
+
                     <div class="mb-3 row">
                         <div class="col-sm-2">
                             <label for="exampleInputDocument">Document ID: </label>

@@ -37,6 +37,24 @@ PIAOnlineForm
  Returns the Asp log object.
  </summary>
 </member>
+<member name="F:PIAOnlineForm.ApprovalInitiator._DisplayDatabase">
+<summary>
+DisplayDatabase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.ApprovalInitiator._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:PIAOnlineForm.DirectorAgreement._Button1">
 <summary>
 Button1 control.
@@ -85,33 +103,6 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PIAOnlineForm.EngManagerAgreement._EngDisplayDatabase">
 <summary>
 EngDisplayDatabase control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.EngManagerAgreement._EngTextBox">
-<summary>
-EngTextBox control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.EngManagerAgreement._EngButton">
-<summary>
-EngButton control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:PIAOnlineForm.EngManagerAgreement._DisplayDatabaseEng">
-<summary>
-DisplayDatabaseEng control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -407,6 +398,15 @@ To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:PIAOnlineForm.FullDataPresident._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PIAOnlineForm.MainForm._Button2">
 <summary>
 Button2 control.
 </summary>

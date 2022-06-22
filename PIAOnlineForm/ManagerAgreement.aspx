@@ -23,7 +23,17 @@
                         <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the full data" Width="308px" />
                     </div>
 
-                      <asp:GridView ID="ManagerDisplayDatabase" runat="server" Width="80%"> </asp:GridView> 
+                      <asp:GridView ID="ManagerDisplayDatabase" runat="server" Width="80%">
+
+                          <Columns>
+                      <asp:TemplateField>
+                         <ItemTemplate>
+                            <asp:CheckBox ID="chkchild" runat="server"></asp:CheckBox>
+                         </ItemTemplate>
+                      </asp:TemplateField>
+                    </Columns>
+
+                      </asp:GridView> 
 
                     <div class="mb-3 row">
                  <div class="col-auto">

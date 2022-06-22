@@ -8,7 +8,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link href="bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="additional-file/css/mainpage.css" rel="stylesheet" />
+    <link href="additional-file/css/global.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container-fluid bg">
@@ -16,7 +16,7 @@
             <div class="col-md-4 col-sm-12"></div>
             <div class="col-md-4 col-sm-12">
                 <form class="container-form text-white" runat="server">
-                    <h2 class="text-center mb-3">Main Page</h2>
+                    <h2 class="text-center mb-3">PIA Online Form</h2>
                    
                   <asp:Button ID="ButtonLogin" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Login" Width="308px" />
                   <asp:Button ID="ButtonRegister" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Register" Width="308px" />
