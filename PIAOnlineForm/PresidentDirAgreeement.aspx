@@ -18,10 +18,12 @@
                     <h2 class="text-center mb-3">President Director's Approval</h2>
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the full data" Width="308px" />
+                        <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the full data" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" />
                     </div>
 
-                      <asp:GridView ID="PreDisplayDatabase" runat="server" Width="80%"> 
+                    <br />
+
+                      <asp:GridView ID="PreDisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="#FF6699"> 
 
                           <Columns>
                       <asp:TemplateField>
@@ -32,21 +34,26 @@
                     </Columns>
 
 
+                          <HeaderStyle BackColor="#C1BBDD" ForeColor="White" />
+
+
                       </asp:GridView> 
+
+                    <br />
 
                     <div class="mb-3 row">
                  <div class="col-auto">
                       <label for="exampleInputSource">PRESIDENT DIRECTOR'S APPROVAL</label>
                  </div>
                  <div class="col-sm-3">
-                      <asp:RadioButtonList ID="pres_approval" runat="server">
+                      <asp:RadioButtonList ID="pres_approval" runat="server" BackColor="#E8DFF5" Font-Names="Times New Roman" Font-Size="Large">
                       <asp:ListItem>Approved</asp:ListItem>
                       <asp:ListItem>Not Approved</asp:ListItem>    
                       </asp:RadioButtonList>                
                  </div>
                  </div>
 
-                    <asp:Button ID="PreBtnUpdate" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Update" Width="308px" />
+                    <asp:Button ID="PreBtnUpdate" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Update" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" />
 
                     <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Log Out" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Times New Roman" Font-Size="Large" />
 
