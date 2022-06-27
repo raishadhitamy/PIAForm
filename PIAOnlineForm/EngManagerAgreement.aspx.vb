@@ -15,4 +15,7 @@ Public Class EngManagerAgreement
         Response.Redirect("FullDataEngManager.aspx")
     End Sub
 
+    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Response.Redirect("MainPage.aspx")
+    End Sub
 End Class

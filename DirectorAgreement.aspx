@@ -18,21 +18,30 @@
             <div class="col-md-12 col-sm-12">&nbsp;</div>
             <div class="col-md-12 col-sm-12">
                 <form class="container-form text-white" runat="server">
-                    <h2 class="text-center mb-3">Director Approval</h2>
+                    <h2 class="text-center mb-3">Director's Approval</h2>
 
-            <div class="mb-3 row">
-                 <div class="col-sm-2">
-                       <label for="exampleInputDocument">Document ID: </label>
-                 </div>
-                 <div class="col-sm-7">
-                       <asp:TextBox ID="DirTextBox" CssClass="form-control" placeholder="Document ID" runat="server"></asp:TextBox>
-                 </div>
-                 <div class="col-sm-3">
-                       <asp:Button ID="DirButton" CssClass="btn btn-primary btn-block" runat="server" Text="Search" Width="250px" />
-                 </div>
-            </div>
+                    <div class="mb-3 row justify-content-center">
+                        <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the full data" Width="308px" />
+                    </div>
 
-            <div class="mb-3 row">
+                      <asp:GridView ID="DirDisplayDatabase" runat="server" Width="80%"> 
+
+
+                          <Columns>
+                      <asp:TemplateField>
+                         <ItemTemplate>
+                            <asp:CheckBox ID="chkchild" runat="server"></asp:CheckBox>
+                         </ItemTemplate>
+                      </asp:TemplateField>
+                    </Columns>
+
+
+                      </asp:GridView> 
+
+
+                    <br />
+
+                    <div class="mb-3 row">
                  <div class="col-auto">
                       <label for="exampleInputSource">DIRECTOR'S APPROVAL</label>
                  </div>
@@ -44,14 +53,7 @@
                  </div>
                  </div>
 
-                      <asp:Button ID="DirBtnUpdate" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Update" Width="308px" />
-
-            <br />
-            <br />
-                  
-                      <asp:GridView ID="DirDisplayDatabase" runat="server" Width="80%">            
-
-                      </asp:GridView> 
+                    <asp:Button ID="DirBtnUpdate" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Update" Width="308px" />
 
                  </form>
             </div>
@@ -63,7 +65,5 @@
     
     <p>
         &nbsp;</p> 
-    <p>
-             +</p>
 </body>
 </html>

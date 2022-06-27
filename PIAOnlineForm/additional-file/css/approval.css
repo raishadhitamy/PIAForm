@@ -1,9 +1,17 @@
 ﻿.bg {
-    background-image: url('../img/alex-fxrwJGMCz_g-unsplash.jpg');
+    background-image: url('../img/abstract-pastel-blue-paint-brushstroke-textured-background.jpg');
     background-repeat: repeat;
     background-size: cover;
-    height: 110vh;
+    height: 125vh;
     width: 250vh;
+}
+
+h2 {
+    color: #FF6699;
+}
+
+label {
+    color: #FF6699;
 }
 
 .container-form {

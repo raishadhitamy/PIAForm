@@ -17,11 +17,29 @@
                 <form class="container-form text-white" runat="server">
                     <h2 class="text-center mb-3">PIA Form</h2>
 
-
-                                        <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the progress" Width="308px" />
+                    <div class="mb-3 row justify-content-center">
+                        <asp:Button ID="Button2" CssClass="btn btn-block mt-4" runat="server" Text="Show the progress" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
                     </div>
 
+                    <div class="mb-3 row">
+                        <div class="col-sm-2">
+                            <label for="exampleArea">Area: </label>
+                        </div>
+                        <div class="col-sm-5">
+                            <asp:DropDownList ID="cmbArea" CssClass="form-control" runat="server">
+                                <asp:ListItem>1</asp:ListItem>
+                                <asp:ListItem>2</asp:ListItem>
+                                <asp:ListItem>3</asp:ListItem>
+                                <asp:ListItem>4</asp:ListItem>
+                                <asp:ListItem>5</asp:ListItem>
+                                <asp:ListItem>6</asp:ListItem>
+                                <asp:ListItem>7</asp:ListItem>
+                                <asp:ListItem>8</asp:ListItem>
+                                <asp:ListItem>9</asp:ListItem>
+                                <asp:ListItem>10</asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
+                    </div>
 
                     <div class="mb-3 row">
                         <div class="col-sm-2">
@@ -31,7 +49,7 @@
                             <asp:TextBox ID="txtDocument" CssClass="form-control" placeholder="Document ID" runat="server"></asp:TextBox>
                         </div>
                         <div class="col-sm-3">
-                            <asp:Button ID="BtnGenerate" CssClass="btn btn-primary btn-block" runat="server" Text="Generate Document ID" Width="250px" />
+                            <asp:Button ID="BtnGenerate" CssClass="btn btn-block" runat="server" Text="Generate Document ID" Width="250px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
                         </div>
                     </div>
 
@@ -155,15 +173,17 @@
                   <br />
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="BtnSubmit" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Submit" Width="308px" />
+                        <asp:Button ID="BtnSubmit" CssClass="btn btn-block mt-4" runat="server" Text="Submit" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
                     </div>
 
                   <br />
 
-                    <asp:GridView ID="DisplayDatabase" runat="server" Width="80%"> </asp:GridView> 
+                    <asp:GridView ID="DisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" BorderColor="#C1BBDD" Font-Names="Times New Roman" ForeColor="#FF6699">
+                        <HeaderStyle BackColor="#C1BBDD" Font-Names="Times New Roman" />
+                    </asp:GridView> 
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Proceed" Width="308px" />
+                        <asp:Button ID="Button1" CssClass="btn btn-block mt-4" runat="server" Text="Proceed" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
                     </div>
 
                 </form>

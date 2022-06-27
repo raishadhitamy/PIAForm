@@ -8,7 +8,7 @@ Public Class MainForm
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not Me.IsPostBack Then
             Dim dt As New DataTable()
-            dt.Columns.AddRange(New DataColumn(4) {New DataColumn("Part number"), New DataColumn("QTY physical"), New DataColumn("QTY book"), New DataColumn("Total value"), New DataColumn("Username")})
+            dt.Columns.AddRange(New DataColumn(3) {New DataColumn("Part number"), New DataColumn("QTY physical"), New DataColumn("QTY book"), New DataColumn("Total value")})
             ViewState("Data") = dt
             Session("Datas") = ""
             Session("Numbers") = "0"
@@ -23,6 +23,7 @@ Public Class MainForm
 
     Protected Sub BtnSubmit_Click(sender As Object, e As EventArgs) Handles BtnSubmit.Click
 
+        Dim Area As String = cmbArea.SelectedValue
         Dim Part_Number As String = txtPartNumber.Text
         Dim Source As String = cmbSource.SelectedValue
         Dim Plant As String = cmbPlant.SelectedValue
@@ -41,20 +42,20 @@ Public Class MainForm
         txtDocument.Enabled = False
         cmbSource.Enabled = False
         cmbPlant.Enabled = False
+        cmbArea.Enabled = False
         txtDocument.Text = DocumentID
         cmbSource.SelectedValue = Source
         cmbSource.SelectedValue = Source
 
         Dim dt As DataTable = DirectCast(ViewState("Data"), DataTable)
         'Take the stored user name to be shown
-        Dim name As String = DirectCast(Session("name"), String)
-        Dim dataRow = dt.Rows.Add(Part_Number.Trim(), Quantity_Physical.Trim(), Quantity_Book.Trim(), Total_Value.Trim(), name.Trim())
+        Dim dataRow = dt.Rows.Add(Part_Number.Trim(), Quantity_Physical.Trim(), Quantity_Book.Trim(), Total_Value.Trim())
         ViewState("Customers") = dt
         If (Session("Datas") = "") Then
-            Session("Datas") = DocumentID.Trim() & "," & Part_Number.Trim() & "," & Source.Trim() & "," & Plant.Trim() & "," & Quantity_Physical.Trim() & "," & Quantity_Book.Trim() & "," & Variance.Trim() & "," & Cover_Until.Trim() & "," & Unit_Price.Trim() & "," & Reason_Code.Trim() & "," & WC.Trim() & "," & Remarks.Trim() & "," & Total_Value & ";"
+            Session("Datas") = DocumentID.Trim() & "," & Area.Trim() & "," & Part_Number.Trim() & "," & Source.Trim() & "," & Plant.Trim() & "," & Quantity_Physical.Trim() & "," & Quantity_Book.Trim() & "," & Variance.Trim() & "," & Cover_Until.Trim() & "," & Unit_Price.Trim() & "," & Reason_Code.Trim() & "," & WC.Trim() & "," & Remarks.Trim() & "," & Total_Value & ";"
             Session("Numbers") = "1"
         Else
-            Session("Datas") = Session("Datas") & DocumentID.Trim() & "," & Part_Number.Trim() & "," & Source.Trim() & "," & Plant.Trim() & "," & Quantity_Physical.Trim() & "," & Quantity_Book.Trim() & "," & Variance.Trim() & "," & Cover_Until.Trim() & "," & Unit_Price.Trim() & "," & Reason_Code.Trim() & "," & WC.Trim() & "," & Remarks.Trim() & "," & Total_Value & ";"
+            Session("Datas") = Session("Datas") & DocumentID.Trim() & "," & Area.Trim() & "," & Part_Number.Trim() & "," & Source.Trim() & "," & Plant.Trim() & "," & Quantity_Physical.Trim() & "," & Quantity_Book.Trim() & "," & Variance.Trim() & "," & Cover_Until.Trim() & "," & Unit_Price.Trim() & "," & Reason_Code.Trim() & "," & WC.Trim() & "," & Remarks.Trim() & "," & Total_Value & ";"
             Session("Numbers") = (Int32.Parse(Session("Numbers")) + 1).ToString()
         End If
         Me.BindGrid()

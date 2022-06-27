@@ -18,10 +18,12 @@
                 <form class="container-form text-white" runat="server">
                     <h2 class="text-center mb-3"></h2>
 
-                    <asp:GridView ID="DisplayDatabase" runat="server" Width="91%"> </asp:GridView> 
+                    <asp:GridView ID="DisplayDatabase" runat="server" Width="91%" BackColor="#FCE1E4" BorderColor="#C1BBDD" BorderStyle="Solid" ForeColor="#FF6699" Font-Names="Times New Roman" Font-Size="Large">
+                        <HeaderStyle BackColor="#C1BBDD" Font-Bold="False" Font-Names="Times New Roman" ForeColor="White" />
+                    </asp:GridView> 
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Log Out" Width="308px" />
+                        <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Log Out" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Large" />
                     </div>
 
                 </form>

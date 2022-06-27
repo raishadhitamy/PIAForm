@@ -98,7 +98,10 @@
     <Content Include="additional-file\css\mainform.css" />
     <Content Include="additional-file\css\mainpage.css" />
     <Content Include="additional-file\css\regist.css" />
-    <Content Include="additional-file\img\simple-1655089829591-3169.jpg" />
+    <Content Include="additional-file\img\abstract-pastel-blue-paint-brushstroke-textured-background.jpg" />
+    <Content Include="additional-file\img\alex-fxrwJGMCz_g-unsplash.jpg" />
+    <Content Include="additional-file\img\v1013-p-0001a.jpg" />
+    <Content Include="additional-file\img\WhatsApp Image 2022-06-23 at 9.24.09 AM.jpeg" />
     <Content Include="ApprovalInitiator.aspx" />
     <Content Include="bootstrap4\css\bootstrap-grid.css" />
     <Content Include="bootstrap4\css\bootstrap-grid.min.css" />
@@ -126,6 +129,7 @@
     <Content Include="PresidentDirAgreeement.aspx" />
     <Content Include="ProcceedForm.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WhatsApp Image 2022-06-23 at 9.24.09 AM.jpeg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApprovalInitiator.aspx.designer.vb">

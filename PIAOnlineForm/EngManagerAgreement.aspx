@@ -10,6 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link href="bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
     <link href="additional-file/css/agreement.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            left: 0px;
+            top: 0px;
+        }
+    </style>
 </head>
 
 <body class="bg">
@@ -21,10 +27,12 @@
                     <h2 class="text-center mb-3">Eng. Mgr Approval</h2>
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the full data" Width="308px" />
+                        <asp:Button ID="Button1" CssClass="btn btn-block mt-4" runat="server" Text="Show the full data" Width="308px" BackColor="#C1BBDD" ForeColor="White" BorderColor="#C1BBDD" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Large" />
                     </div>
 
-                      <asp:GridView ID="EngDisplayDatabase" runat="server" Width="80%">
+                    <br />
+
+                    <asp:GridView ID="EngDisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" ForeColor="#FF6699" BorderColor="#E8DFF5" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Large">
 
                     <Columns>
                       <asp:TemplateField>
@@ -34,25 +42,30 @@
                       </asp:TemplateField>
                     </Columns>
 
-                    </asp:GridView> 
+                          <HeaderStyle BackColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+
+                    </asp:GridView>
+
+                    <br />
 
                  <div class="mb-3 row">  
                  <div class="col-auto">
                       <label for="exampleInputSource">ENG. MGR'S APPROVAL</label>
                  </div>
                  <div class="col-sm-3">
-                      <asp:RadioButtonList ID="eng_man_approval" runat="server">
+                      <asp:RadioButtonList ID="eng_man_approval" runat="server" ForeColor="#FF6699" BackColor="#E8DFF5" BorderColor="White" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Large">
                       <asp:ListItem>Approved</asp:ListItem>
                       <asp:ListItem>Not Approved</asp:ListItem>    
                       </asp:RadioButtonList>                
                  </div>
                  </div>
 
-                    <asp:Button ID="EngBtnUpdate" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Update" Width="308px" />
+                    <asp:Button ID="EngBtnUpdate" CssClass="btn btn-block mt-4" runat="server" Text="Update" Width="308px" BackColor="#C1BBDD" ForeColor="White" BorderColor="#C1BBDD" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Large" />
 
+                    <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Log Out" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Times New Roman" Font-Size="Large" />
                  </form>
             </div>
-            <div class="col-md-4 col-sm-12"></div>
+            <div class="auto-style1"></div>
             </div>
             </div>
 

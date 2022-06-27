@@ -75,8 +75,8 @@
                     <asp:TextBox ID="txtPresidentDirector" CssClass="form-control" placeholder="KPK" runat="server"></asp:TextBox>
                   </div>
 
-                  <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Register" Width="308px" />
-                  <asp:Button ID="ButtonLogin" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Login" Width="308px" />
+                  <asp:Button ID="Button1" CssClass="btn btn-block mt-4" runat="server" Text="Register" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                  <asp:Button ID="ButtonLogin" CssClass="btn btn-block mt-4" runat="server" Text="Login" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
                   
                 </form>
             </div>

@@ -8,7 +8,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link href="bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="additional-file/css/global.css" rel="stylesheet" />
+    <link href="additional-file/css/regist.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container-fluid bg">
@@ -48,6 +48,31 @@
                         <asp:ListItem>Director</asp:ListItem>
                         <asp:ListItem>President Director</asp:ListItem>
                     </asp:DropDownList>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputKPK">KPK Manager</label>
+                    <asp:TextBox ID="txtManager" CssClass="form-control" placeholder="KPK" runat="server"></asp:TextBox>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputKPK">KPK Eng. Mgr</label>
+                    <asp:TextBox ID="txtEngMgr" CssClass="form-control" placeholder="KPK" runat="server"></asp:TextBox>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputKPK">KPK Mat. Mgr</label>
+                    <asp:TextBox ID="txtMatMgr" CssClass="form-control" placeholder="KPK" runat="server"></asp:TextBox>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputKPK">KPK Director</label>
+                    <asp:TextBox ID="txtDirector" CssClass="form-control" placeholder="KPK" runat="server"></asp:TextBox>
+                  </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputKPK">KPK President Director</label>
+                    <asp:TextBox ID="txtPresidentDirector" CssClass="form-control" placeholder="KPK" runat="server"></asp:TextBox>
                   </div>
 
                   <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Register" Width="308px" />

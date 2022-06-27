@@ -48,6 +48,8 @@
 
                     <asp:Button ID="PreBtnUpdate" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Update" Width="308px" />
 
+                    <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Log Out" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Times New Roman" Font-Size="Large" />
+
                  </form>
             </div>
             <div class="col-md-4 col-sm-12"></div>
