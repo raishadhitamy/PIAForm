@@ -26,6 +26,10 @@
                         <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Log Out" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Large" />
                     </div>
 
+                    <div class="mb-3 row justify-content-center">
+                        <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="New Form" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Large" />
+                    </div>
+
                 </form>
             </div>
             <div class="col-md-4 col-sm-12"></div>

@@ -24,8 +24,8 @@
                 <form class="container-form text-white" runat="server">
                     <h2 class="text-center mb-3"></h2>
 
-                    <asp:GridView ID="DisplayDatabase" runat="server" Width="91%" BackColor="#FCE1E4" Font-Names="Times New Roman" Font-Size="Large">
-                        <HeaderStyle BackColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" />
+                    <asp:GridView ID="DisplayDatabase" runat="server" Width="91%" BackColor="#FCE1E4" Font-Names="Times New Roman" Font-Size="Large" ForeColor="#FF6699">
+                        <HeaderStyle BackColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
                     </asp:GridView> 
 
                     <div class="mb-3 row justify-content-center">

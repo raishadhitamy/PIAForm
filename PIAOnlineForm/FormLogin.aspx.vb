@@ -27,7 +27,7 @@ Public Class FormLogin
             Session("name") = dt.Rows(0)("Name").ToString()
             userLevel = userLevel.Trim(" ")
             If (userLevel.Equals("Initiator")) Then
-                Response.Redirect("MainForm.aspx")
+                Response.Redirect("ApprovalInitiator.aspx")
             ElseIf (userLevel.Equals("Director")) Then
                 Response.Redirect("DirectorAgreement.aspx")
             ElseIf (userLevel.Equals("Eng. Mgr")) Then

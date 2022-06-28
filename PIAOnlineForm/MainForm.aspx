@@ -8,6 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link href="bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
     <link href="additional-file/css/mainform.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            -ms-flex: 0 0 41.666667%;
+            flex: 0 0 41.666667%;
+            max-width: 41.666667%;
+            left: 0px;
+            top: 0px;
+            height: 25px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
 </head>
 <body>
     <div class="container-fluid bg">
@@ -102,7 +117,7 @@
                         <div class="col-sm-2">
                             <label for="examplePartNumber">QUANTITY - Book: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="auto-style1">
                             <asp:TextBox ID="txtBook" CssClass="form-control" placeholder="Book" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -178,8 +193,8 @@
 
                   <br />
 
-                    <asp:GridView ID="DisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" BorderColor="#C1BBDD" Font-Names="Times New Roman" ForeColor="#FF6699">
-                        <HeaderStyle BackColor="#C1BBDD" Font-Names="Times New Roman" />
+                    <asp:GridView ID="DisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" BorderColor="#C1BBDD" Font-Names="Times New Roman" ForeColor="#FF6699" Font-Size="Large">
+                        <HeaderStyle BackColor="#C1BBDD" Font-Names="Times New Roman" ForeColor="White" />
                     </asp:GridView> 
 
                     <div class="mb-3 row justify-content-center">
