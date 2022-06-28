@@ -28,7 +28,7 @@
                           <Columns>
                       <asp:TemplateField>
                          <ItemTemplate>
-                            <asp:CheckBox ID="chkchild" runat="server"></asp:CheckBox>
+                            <input id="chkchild"  runat="server" type="checkbox" />
                          </ItemTemplate>
                       </asp:TemplateField>
                     </Columns>
