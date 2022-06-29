@@ -39,10 +39,10 @@ Public Class MainForm
         Dim DocumentID As String = txtDocument.Text
 
         'MsgBox("Data Added Successfully!", MsgBoxStyle.Information, "Message")'
+        cmbArea.Enabled = False
         txtDocument.Enabled = False
         cmbSource.Enabled = False
         cmbPlant.Enabled = False
-        cmbArea.Enabled = False
         txtDocument.Text = DocumentID
         cmbSource.SelectedValue = Source
         cmbSource.SelectedValue = Source
@@ -52,10 +52,10 @@ Public Class MainForm
         Dim dataRow = dt.Rows.Add(Part_Number.Trim(), Quantity_Physical.Trim(), Quantity_Book.Trim(), Total_Value.Trim())
         ViewState("Customers") = dt
         If (Session("Datas") = "") Then
-            Session("Datas") = DocumentID.Trim() & "," & Area.Trim() & "," & Part_Number.Trim() & "," & Source.Trim() & "," & Plant.Trim() & "," & Quantity_Physical.Trim() & "," & Quantity_Book.Trim() & "," & Variance.Trim() & "," & Cover_Until.Trim() & "," & Unit_Price.Trim() & "," & Reason_Code.Trim() & "," & WC.Trim() & "," & Remarks.Trim() & "," & Total_Value & ";"
+            Session("Datas") = Area.Trim() & "," & DocumentID.Trim() & "," & Part_Number.Trim() & "," & Source.Trim() & "," & Plant.Trim() & "," & Quantity_Physical.Trim() & "," & Quantity_Book.Trim() & "," & Variance.Trim() & "," & Cover_Until.Trim() & "," & Unit_Price.Trim() & "," & Reason_Code.Trim() & "," & WC.Trim() & "," & Remarks.Trim() & "," & Total_Value & ";"
             Session("Numbers") = "1"
         Else
-            Session("Datas") = Session("Datas") & DocumentID.Trim() & "," & Area.Trim() & "," & Part_Number.Trim() & "," & Source.Trim() & "," & Plant.Trim() & "," & Quantity_Physical.Trim() & "," & Quantity_Book.Trim() & "," & Variance.Trim() & "," & Cover_Until.Trim() & "," & Unit_Price.Trim() & "," & Reason_Code.Trim() & "," & WC.Trim() & "," & Remarks.Trim() & "," & Total_Value & ";"
+            Session("Datas") = Session("Datas") & Area.Trim() & "," & DocumentID.Trim() & "," & Part_Number.Trim() & "," & Source.Trim() & "," & Plant.Trim() & "," & Quantity_Physical.Trim() & "," & Quantity_Book.Trim() & "," & Variance.Trim() & "," & Cover_Until.Trim() & "," & Unit_Price.Trim() & "," & Reason_Code.Trim() & "," & WC.Trim() & "," & Remarks.Trim() & "," & Total_Value & ";"
             Session("Numbers") = (Int32.Parse(Session("Numbers")) + 1).ToString()
         End If
         Me.BindGrid()

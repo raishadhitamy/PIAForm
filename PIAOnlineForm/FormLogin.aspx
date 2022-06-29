@@ -28,9 +28,14 @@
                     <asp:TextBox ID="txtPasswordLogin" TextMode="Password" CssClass="form-control" placeholder="Password" runat="server"></asp:TextBox>
                   </div>
 
-                  <asp:Button ID="ButtonLogin" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Login" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Times New Roman" Font-Size="Large" />
-                  <asp:Button ID="ButtonRegister" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Register" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Times New Roman" Font-Size="Large" />
-                  
+                    <div class="mb-3 row justify-content-center">
+                        <asp:Button ID="ButtonLogin" CssClass="btn btn-block mt-4" runat="server" Text="Show the progress" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                    </div>
+
+                    <div class="mb-3 row justify-content-center">
+                        <asp:Button ID="ButtonRegister" CssClass="btn btn-block mt-4" runat="server" Text="Show the progress" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                    </div>
+
                 </form>
             </div>
             <div class="col-md-4 col-sm-12"></div>
