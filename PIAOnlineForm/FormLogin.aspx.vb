@@ -11,13 +11,13 @@ Public Class FormLogin
     End Sub
 
     Protected Sub ButtonLogin_Click(sender As Object, e As EventArgs) Handles ButtonLogin.Click
-        Dim Email As String = txtEmailLogin.Text
+        Dim KPK As String = txtKPK.Text
         Dim Password As String = txtPasswordLogin.Text
 
         Connect.Open()
 
         Dim WebRegistration As String = Nothing
-        Dim cmd As SqlCommand = New SqlCommand("select * from WebRegistration where Email='" & txtEmailLogin.Text & "' and Password='" & txtPasswordLogin.Text & "'", Connect)
+        Dim cmd As SqlCommand = New SqlCommand("select * from WebRegistration where KPK='" & txtKPK.Text & "' and Password='" & txtPasswordLogin.Text & "'", Connect)
         Dim sda As SqlDataAdapter = New SqlDataAdapter(cmd)
         Dim dt As DataTable = New DataTable()
         sda.Fill(dt)

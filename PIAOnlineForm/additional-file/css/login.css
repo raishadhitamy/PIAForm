@@ -1,23 +1,23 @@
 ﻿.bg {
-    background-image: url('../img/Untitled40_20220628100742.jpeg');
+    background-image: url('../img/Untitled45_20220704155154.jpg');
     background-repeat: repeat;
     background-size: cover;
-    height: 100vh;
+    height: 130vh;
 }
 
 h2 {
-    color: #FF6699;
+    color: #90639E;
     font: bold 12 px;
 }
 
 label {
-    color: #FF6699;
+    color: #90639E;
 }
 
 .container-form {
     border: 1px solid #ffffff;
-    margin-top: 17vh;
-    padding: 30px 40px;
+    margin-top: 43vh;
+    padding: 15px 15px;
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 70px -9px rgba(255,255,255,1);
     -moz-box-shadow: 0px 0px 70px -9px rgba(255,255,255,1);

@@ -39,7 +39,7 @@
                     </div>
                     <br />
 
-                      <asp:GridView ID="DirDisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" ForeColor="#FF6699" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large"> 
+                      <asp:GridView ID="DirDisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" ForeColor="#90639E" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large"> 
 
 
                           <Columns>
@@ -62,7 +62,7 @@
                       <label for="exampleInputSource">DIRECTOR'S APPROVAL</label>
                  </div>
                  <div class="auto-style1">
-                      <asp:RadioButtonList ID="dir_approval" runat="server" BackColor="#E8DFF5" BorderColor="White" Font-Names="Times New Roman" ForeColor="#FF6699" Font-Size="Large">
+                      <asp:RadioButtonList ID="dir_approval" runat="server" Font-Names="Times New Roman" Font-Size="Large">
                       <asp:ListItem>Approved</asp:ListItem>
                       <asp:ListItem>Not Approved</asp:ListItem>    
                       </asp:RadioButtonList>                
@@ -80,8 +80,6 @@
             </div>
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    
-    <p>
-        &nbsp;</p> 
+
 </body>
 </html>

@@ -14,7 +14,7 @@ Public Class FullDataManager
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Response.Redirect("DirectorAgreement.aspx")
+        Response.Redirect("ManagerAgreement.aspx")
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

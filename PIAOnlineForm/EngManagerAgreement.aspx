@@ -53,7 +53,7 @@
                       <label for="exampleInputSource">ENG. MGR'S APPROVAL</label>
                  </div>
                  <div class="col-sm-3">
-                      <asp:RadioButtonList ID="eng_man_approval" runat="server" ForeColor="#FF6699" BackColor="#E8DFF5" BorderColor="White" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Large">
+                      <asp:RadioButtonList ID="eng_man_approval" runat="server" Font-Bold="False" Font-Names="Times New Roman" Font-Size="Large">
                       <asp:ListItem>Approved</asp:ListItem>
                       <asp:ListItem>Not Approved</asp:ListItem>    
                       </asp:RadioButtonList>                
@@ -70,8 +70,6 @@
             </div>
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    
-    <p>
-        &nbsp;</p> 
+
 </body>
 </html>

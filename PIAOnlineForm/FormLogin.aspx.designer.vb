@@ -14,13 +14,13 @@ Option Explicit On
 Partial Public Class FormLogin
 
     '''<summary>
-    '''txtEmailLogin control.
+    '''txtKPK control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtEmailLogin As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtKPK As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''txtPasswordLogin control.

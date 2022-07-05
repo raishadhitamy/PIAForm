@@ -2,6 +2,7 @@
     background-image: url('../img/abstract-pastel-blue-paint-brushstroke-textured-background.jpg');
     background-repeat: repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 h2 {
@@ -14,7 +15,7 @@ label {
 
 .container-form {
     border: 1px solid #ffffff;
-    margin-top: 2vh;
+    margin-top: 5vh;
     padding: 30px 40px;
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 70px -9px rgba(255,255,255,1);

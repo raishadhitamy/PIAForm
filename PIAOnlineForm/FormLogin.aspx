@@ -8,7 +8,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link href="bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="additional-file/css/global.css" rel="stylesheet" />
+    <link href="additional-file/css/login.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container-fluid bg">
@@ -19,8 +19,8 @@
                     <h2 class="text-center mb-3">Login Form</h2>
 
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <asp:TextBox ID="txtEmailLogin" TextMode="Email" CssClass="form-control" placeholder="Email" runat="server"></asp:TextBox>
+                    <label for="exampleInputEmail1">KPK</label>
+                    <asp:TextBox ID="txtKPK" CssClass="form-control" placeholder="Email" runat="server"></asp:TextBox>
                   </div>
 
                   <div class="form-group">
@@ -29,11 +29,11 @@
                   </div>
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="ButtonLogin" CssClass="btn btn-block mt-4" runat="server" Text="Show the progress" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                        <asp:Button ID="ButtonLogin" CssClass="btn btn-block mt-4" runat="server" Text="Login" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
                     </div>
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="ButtonRegister" CssClass="btn btn-block mt-4" runat="server" Text="Show the progress" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                        <asp:Button ID="ButtonRegister" CssClass="btn btn-block mt-4" runat="server" Text="Register" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
                     </div>
 
                 </form>
@@ -42,9 +42,6 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <p>
-        &nbsp;</p>
-    <p>
-        +</p>
+
 </body>
 </html>

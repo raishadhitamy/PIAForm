@@ -154,9 +154,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PIAOnlineForm.FormLogin._txtEmailLogin">
+<member name="F:PIAOnlineForm.FormLogin._txtKPK">
 <summary>
-txtEmailLogin control.
+txtKPK control.
 </summary>
 <remarks>
 Auto-generated field.

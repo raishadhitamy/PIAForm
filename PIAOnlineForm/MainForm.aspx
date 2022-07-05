@@ -193,7 +193,7 @@
 
                   <br />
 
-                    <asp:GridView ID="DisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" BorderColor="#C1BBDD" Font-Names="Times New Roman" ForeColor="#FF6699" Font-Size="Large">
+                    <asp:GridView ID="DisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" BorderColor="#C1BBDD" Font-Names="Times New Roman" ForeColor="#90639E" Font-Size="Large">
                         <HeaderStyle BackColor="#C1BBDD" Font-Names="Times New Roman" ForeColor="White" />
                     </asp:GridView> 
 
@@ -207,8 +207,5 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <p>
-        &nbsp;
-    </p>
 </body>
 </html>
