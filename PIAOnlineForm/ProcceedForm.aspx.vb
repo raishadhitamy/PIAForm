@@ -27,8 +27,10 @@ Public Class ProcceedForm
         Next
         DisplayDatabase.DataSource = New DataTable()
         DisplayDatabase.DataBind()
-        Session("Datas") = ""
-        Session("Numbers") = 0
         Connect.Close()
+    End Sub
+
+    Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Response.Redirect("MainForm.aspx")
     End Sub
 End Class

@@ -14,6 +14,33 @@ Option Explicit On
 Partial Public Class ApprovalInitiator
 
     '''<summary>
+    '''cmbInitiator control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents cmbInitiator As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''InTextBox control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents InTextBox As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''InButton control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents InButton As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''DisplayDatabase control.
     '''</summary>
     '''<remarks>

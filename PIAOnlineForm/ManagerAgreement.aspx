@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
     <title>Login</title>
     <meta charset="utf-8"/>
@@ -12,6 +13,20 @@
 </head>
 
 <body class="bg">
+
+    
+    <nav>
+        <div class="logo">
+            <p>PIA Form</p>
+        </div>
+        <ul>
+            <li><a href="MainPage.aspx">Home</a></li>
+            <li><a href="ManagerAgreement.aspx">Approval</a></li>
+            <li><a href="FullDataManager.aspx">Full Data</a></li>
+            <li><a href="MainPage.aspx">Log Out</a></li>
+        </ul>
+    </nav>
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 col-sm-12">&nbsp;</div>
@@ -20,24 +35,25 @@
                     <h2 class="text-center mb-3">Manager's Approval</h2>
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the full data" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" />
+                        <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the full data" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" />
                     </div>
 
                     <br />
 
-                      <asp:GridView ID="ManagerDisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="#FF6699">
+                      <asp:GridView ID="ManagerDisplayDatabase" runat="server" Width="100%" BackColor="White" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" ForeColor="#C69FF9">
 
-                          <Columns>
+                    <Columns>
                       <asp:TemplateField>
-                         <ItemTemplate>
-                            <input id="chkchild"  runat="server" type="checkbox" />
-                         </ItemTemplate>
+                        <ItemTemplate>
+                          <input id="chkchild"  runat="server" type="checkbox" />
+                        </ItemTemplate>
                       </asp:TemplateField>
+                        <asp:ButtonField ButtonType="Button" CommandName="Update" HeaderText="Full Data" ShowHeader="True" Text="Show Data" />
                     </Columns>
 
-                          <HeaderStyle BackColor="#C1BBDD" ForeColor="White" />
+                       <HeaderStyle BackColor="#C1BBDD" ForeColor="White" />
 
-                      </asp:GridView> 
+                    </asp:GridView> 
 
                     <br />
 
@@ -53,9 +69,9 @@
                  </div>
                  </div>
 
-                    <asp:Button ID="ManagerBtnUpdate" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Update" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" />
+                    <asp:Button ID="ManagerBtnUpdate" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Update" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" />
 
-                    <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Log Out" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Times New Roman" Font-Size="Large" />
+                    <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Log Out" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Arial" Font-Size="Large" />
 
                  </form>
             </div>

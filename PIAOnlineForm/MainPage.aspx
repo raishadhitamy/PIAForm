@@ -11,6 +11,18 @@
     <link href="additional-file/css/mainpage.css" rel="stylesheet" />
 </head>
 <body>
+
+    <nav>
+        <div class="logo">
+            <p>PIA FORM</p>
+        </div>
+        <ul>
+            <li><a href="MainPage.aspx">Home</a></li>
+            <li><a href="FormLogin.aspx">Login</a></li>
+            <li><a href="FormRegistration.aspx">Register</a></li>
+        </ul>
+    </nav>
+
     <div class="container-fluid bg">
         <div class="row">
             <div class="col-md-4 col-sm-12"></div>
@@ -19,11 +31,11 @@
                     <h2 class="text-center mb-3">PIA Online Form</h2>
                                  
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="ButtonLogin" CssClass="btn btn-block mt-4" runat="server" Text="Login" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                        <asp:Button ID="ButtonLogin" CssClass="btn btn-block mt-4" runat="server" Text="Login" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" ForeColor="White" />
                     </div>
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="ButtonRegister" CssClass="btn btn-block mt-4" runat="server" Text="Register" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                        <asp:Button ID="ButtonRegister" CssClass="btn btn-block mt-4" runat="server" Text="Register" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" ForeColor="White" />
                     </div>
 
                 </form>

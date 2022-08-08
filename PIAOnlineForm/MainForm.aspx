@@ -13,18 +13,30 @@
             position: relative;
             width: 100%;
             min-height: 1px;
-            -ms-flex: 0 0 41.666667%;
-            flex: 0 0 41.666667%;
-            max-width: 41.666667%;
+            -ms-flex: 0 0 16.666667%;
+            flex: 0 0 16.666667%;
+            max-width: 16.666667%;
             left: 0px;
             top: 0px;
-            height: 25px;
             padding-left: 15px;
             padding-right: 15px;
         }
     </style>
 </head>
 <body>
+
+    <nav>
+        <div class="logo">
+            <p>PIA Form</p>
+        </div>
+        <ul>
+            <li><a href="MainPage.aspx">Home</a></li>
+            <li><a href="MainForm.aspx">New Form</a></li>
+            <li><a href="ApprovalInitiator.aspx">Show Data</a></li>
+            <li><a href="MainPage.aspx">Log Out</a></li>
+        </ul>
+    </nav>
+
     <div class="container-fluid bg">
         <div class="row">
             <div class="col-md-12 col-sm-12"></div>
@@ -32,15 +44,20 @@
                 <form class="container-form text-white" runat="server">
                     <h2 class="text-center mb-3">PIA Form</h2>
 
-                    <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="Button2" CssClass="btn btn-block mt-4" runat="server" Text="Show the progress" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                    <div class="mb-3 row">
+                        <div class="mb-3 row justify-content-center">
+                            <asp:Button ID="Button2" CssClass="btn btn-block mt-4" runat="server" Text="Show the progress" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" ForeColor="White" />
+                        </div>
+                        <div class="mb-3 row justify-content-center">
+                            <asp:Button ID="BtnSubmit" CssClass="btn btn-block mt-4" runat="server" Text="Submit" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" ForeColor="White" />
+                    </div>
                     </div>
 
                     <div class="mb-3 row">
                         <div class="col-sm-2">
                             <label for="exampleArea">Area: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:DropDownList ID="cmbArea" CssClass="form-control" runat="server">
                                 <asp:ListItem>1</asp:ListItem>
                                 <asp:ListItem>2</asp:ListItem>
@@ -60,11 +77,11 @@
                         <div class="col-sm-2">
                             <label for="exampleInputDocument">Document ID: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:TextBox ID="txtDocument" CssClass="form-control" placeholder="Document ID" runat="server"></asp:TextBox>
                         </div>
-                        <div class="col-sm-3">
-                            <asp:Button ID="BtnGenerate" CssClass="btn btn-block" runat="server" Text="Generate Document ID" Width="250px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                        <div class="col-sm-2">
+                            <asp:Button ID="BtnGenerate" CssClass="btn btn-block" runat="server" Text="Generate Document ID" Width="250px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" ForeColor="White" />
                         </div>
                     </div>
 
@@ -72,7 +89,7 @@
                         <div class="col-sm-2">
                             <label for="examplePlant">Plant: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:DropDownList ID="cmbPlant" CssClass="form-control" runat="server">
                                 <asp:ListItem>P1</asp:ListItem>
                                 <asp:ListItem>P2</asp:ListItem>
@@ -85,7 +102,7 @@
                         <div class="col-sm-2">
                             <label for="exampleSource">Source: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:DropDownList ID="cmbSource" CssClass="form-control" runat="server">
                                 <asp:ListItem>STORE (TC 40)</asp:ListItem>
                                 <asp:ListItem>WIP (TC 41)</asp:ListItem>
@@ -99,7 +116,7 @@
                         <div class="col-sm-2">
                             <label for="examplePartNumber">Part Number: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:TextBox ID="txtPartNumber" CssClass="form-control" placeholder="Part Number" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -108,7 +125,7 @@
                         <div class="col-sm-2">
                             <label for="examplePartNumber">QUANTITY - Physical: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:TextBox ID="txtPhysical" CssClass="form-control" placeholder="Physical" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -126,7 +143,7 @@
                         <div class="col-sm-2">
                             <label for="examplePartNumber">Variance: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:TextBox ID="txtVariance" CssClass="form-control" Enabled="False" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -135,7 +152,7 @@
                         <div class="col-sm-2">
                             <label for="examplePartNumber">Cover Until (Weeks): </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:TextBox ID="txtCoverUntil" CssClass="form-control" placeholder="Cover Until" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -144,7 +161,7 @@
                         <div class="col-sm-2">
                             <label for="exampleUnitPrice">Unit Price (Rp): </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:TextBox ID="txtUnitPrice" CssClass="form-control" placeholder="Unit Price" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -153,7 +170,7 @@
                         <div class="col-sm-2">
                             <label for="examplePartNumber">Total Value: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:TextBox ID="txtTotalValue" CssClass="form-control" Enabled="False" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -162,7 +179,7 @@
                         <div class="col-sm-2">
                             <label for="exampleReasonCode">Reason Code: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:TextBox ID="txtReasonCode" CssClass="form-control" placeholder="Reason Code" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -171,7 +188,7 @@
                         <div class="col-sm-2">
                             <label for="exampleReasonCode">W/C #: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:TextBox ID="txtWC" CssClass="form-control" placeholder="W/C #" runat="server"></asp:TextBox>
                         </div>
                     </div>
@@ -180,25 +197,21 @@
                         <div class="col-sm-2">
                             <label for="exampleReasonCode">Remarks: </label>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-2">
                             <asp:TextBox ID="txtRemarks" CssClass="form-control" placeholder="Remarks" runat="server"></asp:TextBox>
                         </div>
                     </div>
 
                   <br />
-
-                    <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="BtnSubmit" CssClass="btn btn-block mt-4" runat="server" Text="Submit" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
-                    </div>
-
+                    
                   <br />
 
-                    <asp:GridView ID="DisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" BorderColor="#C1BBDD" Font-Names="Times New Roman" ForeColor="#90639E" Font-Size="Large">
-                        <HeaderStyle BackColor="#C1BBDD" Font-Names="Times New Roman" ForeColor="White" />
+                    <asp:GridView ID="DisplayDatabase" runat="server" Width="100%" BackColor="White" BorderColor="#C1BBDD" Font-Names="Arial" ForeColor="#90639E" Font-Size="Large">
+                        <HeaderStyle BackColor="#C1BBDD" Font-Names="Arial" ForeColor="White" />
                     </asp:GridView> 
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="Button1" CssClass="btn btn-block mt-4" runat="server" Text="Proceed" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                        <asp:Button ID="Button1" CssClass="btn btn-block mt-4" runat="server" Text="Proceed" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" ForeColor="White" />
                     </div>
 
                 </form>

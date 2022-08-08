@@ -23,6 +23,15 @@ Partial Public Class MainForm
     Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
+    '''BtnSubmit control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents BtnSubmit As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''cmbArea control.
     '''</summary>
     '''<remarks>
@@ -156,15 +165,6 @@ Partial Public Class MainForm
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtRemarks As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''BtnSubmit control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents BtnSubmit As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''DisplayDatabase control.

@@ -26,6 +26,18 @@
     </style>
 </head>
 
+    <nav>
+        <div class="logo">
+            <p>PIA Form</p>
+        </div>
+        <ul>
+            <li><a href="mainpage.aspx">Home</a></li>
+            <li><a href="DirectorAgreement.aspx">Approval</a></li>
+            <li><a href="FullDataDirector.aspx">Full Data</a></li>
+            <li><a href="mainpage.aspx">Log Out</a></li>
+        </ul>
+    </nav>
+
 <body class="bg">
     <div class="container-fluid">
         <div class="row">
@@ -35,23 +47,35 @@
                     <h2 class="text-center mb-3">Director's Approval</h2>
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the full data" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Times New Roman" Font-Size="Large" />
+                        <asp:Button ID="Button1" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Show the full data" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Arial" Font-Size="Large" />
                     </div>
                     <br />
 
-                      <asp:GridView ID="DirDisplayDatabase" runat="server" Width="80%" BackColor="#FCE1E4" ForeColor="#90639E" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large"> 
+                      <asp:GridView ID="DirDisplayDatabase" runat="server" Width="100%" BackColor="White" ForeColor="#90639E" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large"> 
 
 
-                          <Columns>
+                    <Columns>
                       <asp:TemplateField>
                          <ItemTemplate>
                             <input id="chkchild"  runat="server" type="checkbox" />
                          </ItemTemplate>
                       </asp:TemplateField>
+<asp:TemplateField><ItemTemplate>
+                          <input id="showdata"  runat="server" type="button" />
+                        
+</ItemTemplate>
+</asp:TemplateField>
                     </Columns>
 
-                          <HeaderStyle BackColor="#C1BBDD" Font-Names="Times New Roman" ForeColor="White" />
+                    <Columns>
+                      <asp:TemplateField>
+                        <ItemTemplate>
+                          <input id="showdata"  runat="server" type="button" />
+                        </ItemTemplate>
+                      </asp:TemplateField>
+                    </Columns>
 
+                          <HeaderStyle BackColor="#C1BBDD" Font-Names="Arial" ForeColor="White" />
 
                       </asp:GridView> 
 
@@ -62,16 +86,16 @@
                       <label for="exampleInputSource">DIRECTOR'S APPROVAL</label>
                  </div>
                  <div class="auto-style1">
-                      <asp:RadioButtonList ID="dir_approval" runat="server" Font-Names="Times New Roman" Font-Size="Large">
+                      <asp:RadioButtonList ID="dir_approval" runat="server" Font-Names="Arial" Font-Size="Large">
                       <asp:ListItem>Approved</asp:ListItem>
                       <asp:ListItem>Not Approved</asp:ListItem>    
                       </asp:RadioButtonList>                
                  </div>
                  </div>
 
-                    <asp:Button ID="DirBtnUpdate" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Update" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Times New Roman" Font-Size="Large" />
+                    <asp:Button ID="DirBtnUpdate" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Update" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Arial" Font-Size="Large" />
                      
-                    <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Log Out" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Times New Roman" Font-Size="Large" />
+                    <asp:Button ID="Button2" CssClass="btn btn-primary btn-block mt-4" runat="server" Text="Log Out" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" ForeColor="White" Font-Names="Arial" Font-Size="Large" />
 
                  </form>
             </div>

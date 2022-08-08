@@ -95,12 +95,14 @@
     <Content Include="additional-file\css\agreement.css" />
     <Content Include="additional-file\css\approval.css" />
     <Content Include="additional-file\css\fulldata.css" />
+    <Content Include="additional-file\css\initiator.css" />
     <Content Include="additional-file\css\login.css" />
     <Content Include="additional-file\css\mainform.css" />
     <Content Include="additional-file\css\mainpage.css" />
     <Content Include="additional-file\css\regist.css" />
     <Content Include="additional-file\img\abstract-pastel-blue-paint-brushstroke-textured-background.jpg" />
     <Content Include="additional-file\img\Untitled45_20220704155154.jpg" />
+    <Content Include="additional-file\img\WhatsApp Image 2022-07-25 at 09.16.55.jpeg" />
     <Content Include="ApprovalInitiator.aspx" />
     <Content Include="bootstrap4\css\bootstrap-grid.css" />
     <Content Include="bootstrap4\css\bootstrap-grid.min.css" />
@@ -135,7 +137,7 @@
     </Compile>
     <Compile Include="ApprovalInitiator.aspx.vb">
       <DependentUpon>ApprovalInitiator.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DirectorAgreement.aspx.designer.vb">
       <DependentUpon>DirectorAgreement.aspx</DependentUpon>

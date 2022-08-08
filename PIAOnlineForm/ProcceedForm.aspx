@@ -17,6 +17,19 @@
     </style>
 </head>
 <body>
+
+    <nav>
+        <div class="logo">
+            <p>PIA Form</p>
+        </div>
+        <ul>
+            <li><a href="MainPage.aspx">Home</a></li>
+            <li><a href="MainForm.aspx">New Form</a></li>
+            <li><a href="ApprovalInitiator.aspx">Show Data</a></li>
+            <li><a href="MainPage.aspx">Log Out</a></li>
+        </ul>
+    </nav>
+
     <div class="container-fluid bg">
         <div class="row">
             <div class="col-md-12 col-sm-12"></div>
@@ -24,16 +37,20 @@
                 <form class="container-form text-white" runat="server">
                     <h2 class="text-center mb-3"></h2>
 
-                    <asp:GridView ID="DisplayDatabase" runat="server" Width="91%" BackColor="#FCE1E4" Font-Names="Times New Roman" Font-Size="Large" ForeColor="#90639E">
-                        <HeaderStyle BackColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                    <asp:GridView ID="DisplayDatabase" runat="server" Width="100%" BackColor="White" Font-Names="Arial" Font-Size="Large" ForeColor="#90639E">
+                        <HeaderStyle BackColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" ForeColor="White" />
                     </asp:GridView> 
-
+           
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="Button1" CssClass="btn btn-block mt-4" runat="server" Text="Proceed" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                        <asp:Button ID="Button1" CssClass="btn btn-block mt-4" runat="server" Text="Proceed" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" ForeColor="White" />
                     </div>
 
                     <div class="mb-3 row justify-content-center">
-                        <asp:Button ID="Button2" CssClass="btn btn-block mt-4" runat="server" Text="Log Out" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Times New Roman" Font-Size="Large" ForeColor="White" />
+                        <asp:Button ID="Button2" CssClass="btn btn-block mt-4" runat="server" Text="Log Out" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" ForeColor="White" />
+                    </div>
+
+                    <div class="mb-3 row justify-content-center">
+                        <asp:Button ID="Button3" CssClass="btn btn-block mt-4" runat="server" Text="Back" Width="308px" BackColor="#C1BBDD" BorderColor="#C1BBDD" Font-Names="Arial" Font-Size="Large" ForeColor="White" />
                     </div>
 
                 </form>
